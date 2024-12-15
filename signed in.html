@@ -1,0 +1,494 @@
+<html>
+
+
+<main id="wrapper">
+
+    <main id="sliding-background">
+
+    </main>
+  </main>
+
+<section id="star"> 
+
+	
+	<header>
+            
+
+            
+            
+		<nav id="one"> 
+
+	
+		<div id="logo">
+			<img id="logopic"  onclick="document.location='broker site landing page.html'" src="ace wallet logo.jpg" >
+			
+		</div>
+
+	  <nav id="name"> 
+		Ace 
+		<br>
+		Exchange
+	</nav>
+
+	</nav>  
+	
+	
+	<nav id="two">
+
+	<div id="user"> <img id="userimg" src="download (4).jpg" onclick="document.location='signed in.html'"> </div>
+
+</nav>
+
+	</header>
+
+
+<section id="inputs">
+<h1 id="caption"> <h id="LetS">S</h>ign In </h1>
+<br>
+<i id="caption2"> Welcome to Ace Wallet </i>
+<hr>
+<br>
+
+		<input id="StoredEmail" placeholder="Email">
+
+<br>
+<br>
+
+
+		<input id="StoredPassword"  type="password" placeholder="Password">
+		
+<br>
+<br>
+
+<btn id="btn">
+			<input id="create" type="button" onclick="Login()" value="LOGIN">
+
+</btn>
+<br>
+<br>
+		<div id="redirect"> Don't have Account/<a href ="logins.html" id="sigIn">Sign Up</div>
+
+</section>
+
+</section>
+
+
+
+
+
+
+
+<style>
+
+
+
+header {
+             display: flex;
+             justify-content: space-between;
+             background-color: rgb(1, 1, 66);
+             background-image: url("OIP\ \(1\).jpg");
+             padding:10px;
+			 margin-top: -10px;
+			opacity: ;
+
+           
+             
+            }
+
+
+#one{
+
+    display: flex;
+    justify-content: ;
+
+}
+
+#two{
+
+    display: flex;
+    justify-content:;
+
+}
+
+#logopic {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+
+#name {
+
+        margin-left: 10px;
+        font-size: 30px;
+}
+
+#user{
+
+
+            width: 50px;
+            height: 50px;
+            font-size: 30px;
+           
+            margin-top: 10px;
+            color: white;
+            border-radius: 5px;
+
+}
+
+
+#userimg    {
+
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+}
+
+
+#icons{
+
+        background-color: rgba(20, 20, 29, 0.89);
+        color: white;
+        padding: 20px;
+        font-size: 25px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+       display: none;
+       width: 100%;
+        position: ;
+       
+    }
+
+
+	
+#wrapper {
+    overflow:;
+    position: fixed;
+    top:-25px;
+    z-index: 1;
+
+}
+
+@media only screen and (min-width:100px) { #sliding-background {
+	background-image:url(OIP\ \(1\).jpg);
+	background-repeat: ;
+    height: 2050px;
+    width: 6000px;
+    animation: slide 60s linear infinite;
+    opacity: ;
+    delay:10s;
+}
+}
+
+
+
+@keyframes slide {
+    0%  { transform: translate3d(0, 0, 0);
+         delay:10s;
+
+    }
+    
+    100%    {
+        transform: translate3d(-1000px, 0, 0);
+       }
+
+}
+
+
+#star{
+			position: absolute;
+			z-index: 2;
+			width: 98%;
+			
+}
+
+
+
+		
+			header{
+				
+				
+				text-align:center;
+				color:blue;
+				font-size:30px;
+				font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+				
+}
+
+			#caption{
+
+				color:white;
+				font-size:30px;
+				text-align:center;
+			
+}
+
+
+
+
+			#caption2{
+
+				color:white;
+				font-size:15px;
+				text-align:center;
+			
+}
+	#inputs{
+
+				
+			background-color:rgb(12, 12, 85);
+			padding:10px;
+			padding-left:30px;
+			padding-right:30px;
+			padding-bottom:30px;
+			border-radius:10px;
+			position:relative;
+		
+			
+			top:100px;
+			
+}
+
+
+
+
+			#StoredEmail{
+
+					width:100%;
+					background-color:rgba(128, 128, 128, 0.24);
+					border:none;
+					font-size:20px;
+					border-radius:5px;
+					height:50px;
+					color:white;
+
+				
+}
+
+
+			#StoredPassword{
+
+					width:100%;
+					background-color:rgba(128, 128, 128, 0.24);
+					border:none;
+					font-size:20px;
+					border-radius:5px;
+					height:50px;
+					color:white;
+
+				
+}
+
+			
+			#Lets{
+
+				font-size:70px;
+}
+
+
+
+
+			#create{
+
+				background-color:blue;
+				width:50%;
+				height:50px;
+				text-align:center;
+				color:white;
+				border: none;
+				border-radius:7px;
+				align-self:center;
+				justify-content:center;
+
+}	
+			
+			#btn{
+
+				display:flex;
+				justify-content:center;
+}
+
+			#redirect{
+
+				color:white;
+				text-align:center;
+			
+}
+
+
+			#signIn{
+
+
+				color:green;
+			
+}
+
+
+
+
+</style>
+
+
+<script>
+
+
+			function Login(){
+
+				var StoredEmail = document.getElementById("StoredEmail");
+				var StoredPassword = document.getElementById("StoredPassword");
+				
+
+			var SavedEmail = localStorage.getItem('SavedEmail');
+
+			var SavedPassword = localStorage.getItem('SavedPassword');
+
+			var AdminEmail = "Administrator"
+			var AdminPassword = "ADMINISTRATORBK"
+
+//COMPARING CREATED EMAIL AND PASSWORD WITH INPUTED EMAIL AND PASSWORD
+
+		if(StoredEmail.value === SavedEmail){
+
+			StoredEmail.style.border = "2px solid green";
+			
+}
+
+//ELSE IF STATEMENT FOR ADMINEMAIL
+		else if(StoredEmail.value === AdminEmail){
+
+			StoredEmail.style.border = "2px solid blue";
+		}
+
+		else {
+			
+				StoredEmail.style.border = "2px solid red";
+
+}
+
+		if(StoredPassword.value === SavedPassword){
+
+			StoredPassword.style.border = "2px solid green";
+			
+}
+
+//ELSE IF STATEMENT FOR ADMINEMAIL
+
+		else if(StoredPassword.value === AdminPassword){
+
+		StoredPassword.style.border = "2px solid blue";
+		}
+
+		else {
+			
+			StoredPassword.style.border = "2px solid red";
+
+}
+		
+//For empty field
+		
+		if(StoredEmail.value ===""){
+					StoredEmail.style.border = "2px solid red";
+					
+		}
+
+			else{
+					
+					StoredEmail.style.border = "2px solid green";
+			}
+			
+
+		if(StoredPassword.value ===""){
+					StoredPassword.style.border = "2px solid red";
+					
+		}
+
+			else{
+					
+					StoredPassword.style.border = "2px solid green";
+			}
+
+		if(StoredEmail.value && StoredPassword.value ===""){
+
+				document.location = "signed in.html"; 
+		}	
+			
+//COMBINIATION OF SAVEDPASSWORD AND SAVEDEMAIL ------------------------------------------------
+
+		if(StoredEmail.value === SavedEmail && StoredPassword.value === SavedPassword){
+
+
+			document.innerHTML = document.location = "tab.html";
+			
+}
+
+//ELSE IF STATEMENT MAKING BOTH VALUES === TO ADMINLOGINS TO ENTER ADMIN SPACE
+
+		else if (StoredEmail.value === AdminEmail && StoredPassword.value === AdminPassword){
+
+			document.innerHTML = document.location = "Admin Space.html";
+
+		}
+
+		else{
+
+			alert("Wrong Email or Password");
+
+		
+//DECLEARING IN ELSE STATEMENT FOR COMPARISION -----------------------------------------------
+
+		if(StoredEmail.value === SavedEmail){
+
+			StoredEmail.style.border = "2px solid green";
+			
+}
+
+//ELSE IF STATEMENT FOR ADMINEMAIL
+		else if(StoredEmail.value === AdminEmail){
+
+		StoredEmail.style.border = "2px solid blue";
+		}
+
+
+		else {
+			
+				StoredEmail.style.border = "2px solid red";
+
+		}
+	
+		if(StoredPassword.value === SavedPassword){
+
+			StoredPassword.style.border = "2px solid green";
+			
+		}
+
+		//ELSE IF STATEMENT FOR ADMINPASSWORD
+
+		else if(StoredPassword.value === AdminPassword){
+
+		StoredPassword.style.border = "2px solid blue";
+		}
+
+
+
+
+		else {
+			
+			StoredPassword.style.border = "2px solid red";
+
+}
+
+		
+				
+}
+
+}
+
+
+		
+
+
+</script>
+
+</html>

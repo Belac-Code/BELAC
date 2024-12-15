@@ -1,0 +1,78 @@
+<html>
+
+                            <section>
+
+                                <ul>
+
+
+                                    <input id="nocl" readonly placeholder="00" value="0">
+                                    <li> NO OF CLIENTS </li>
+                                    <br>
+
+                                    <input id="noivm" readonly placeholder="00" value="0">
+                                    <li> NO OF INVESTMENT</li>
+                                    <br>
+
+                                    <input id="noivs" readonly placeholder="00" value="0">
+                                    <li> NO OF INVESTORS </li>
+                                </ul>
+
+                            </section>
+
+
+                            <button id="CLBTN" onclick="CL()"> CL BTN </button>
+
+
+
+            <style>
+
+                            ul{
+
+                                    text-align: center;
+                            }
+
+                            li{
+                                    list-style:none;
+                                    text-align: center;
+                                    
+                            }
+
+                            input{
+                                        background-color: transparent;
+                                        border: none;
+                                        text-align: center;
+
+                            }
+            </style>                
+
+            <script>
+
+
+                        function load(){
+
+                                        let nocl = 365;
+                                        let noivs = 500;
+                                        let noivm = 200;
+
+                                        var Nocl = document.getElementById("nocl");
+                                        var Noivm = document.getElementById("noivm");
+                                        var Noivs = document.getElementById("noivs");
+
+
+                                        Nocl.value = nocl;
+                                        Noivs.value = noivs;
+                                        Noivm.value = noivm;
+
+                        }
+
+                        function CL(){
+
+                                     var Nocl = document.getElementById("nocl");
+
+                                     Nocl.value+=(eval++);
+                    }
+
+
+                        window.onload = load();
+            </script>
+</html>

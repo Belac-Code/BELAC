@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="broker site home.css">
+<style>
+
+</style>
+</head>
+<body>
+       
+     
+    <header class="head">
+            
+<p id="option"> 
+
+    <div class="container" onclick="myFunction()">
+        
+            <div class="bar1"></div>
+            <br>
+            <div class="bar2"></div>
+            <br>
+            <div class="bar3"></div>
+        </div>
+
+            <main id="taskbarwrapper">
+                <button id="cancelbtn" onclick="Cancelbtn()"> × </button>
+                <div id="taskbarwrap">
+                        <img id="barimg" src="ace wallet logo.jpg">
+                </div>
+<hr>
+                <ul id="barlistwrap">
+
+                   <li id="barlist" onclick="Personal()"> &#128100; Personal </li>
+
+<hr>                   
+                   <li id="barlist" onclick="Personal()"> &#128231; Confirm Email </li>
+
+<hr>                   
+
+                   <li id="barlist" onclick="Personal()" > &#128272; Change Password </li>
+                   
+                  <hr>                   
+                                      
+                   <li id="barlist" onclick="Personal()"> &#128242; Confirm Phone </li>
+                   
+                  <hr>      
+                   <li id="barlist" onclick="We()"> &#8864; About </li>
+                 
+                  <hr> 
+                   <li id="barlist" onclick="We()"> &#128222; Contact Us </li>
+                
+                  <hr>
+                   <li id="barlist" onclick="We()" > &#1000000000; FAQ </li>
+                
+                  <hr>
+                   <li id="barlist" onclick="Out()"> &rarrb; Logout </li>
+
+                </ul>
+            </main>
+
+</p>
+
+
+
+        <h1 id="current-bal">
+         
+        <div> 
+            &dollar;<b id="currentBal">0</b> 
+            
+            <button id="hide" onclick="Balance()"> &#9786; </button>   
+        </div>
+            <p id="wallet-balance">Wallet Balance</p>
+        </h1>
+
+
+    
+        <ul id="list-1">
+            <li id="send" onclick="document.location='broker site send.html'">
+                &#128228; 
+               </li>
+            <div id="send-text">Send</div>
+            
+           
+            <li id="receive" onclick="document.location='broker site receive.html'">
+                &#128229;
+            </li>
+            <div id="receive-text">Receive</div>
+            
+           
+    
+            <li id="deposit" onclick="document.location='broker site deposit.html'">
+                &#128181;
+            </li>
+            <div id="buy-text">Buy</div>
+            
+    
+            <li id="withdraw" onclick="document.location='broker site withdraw.html'">
+                 &#127974;
+            </li>
+            <div id="withdraw-text">Withdraw</div>
+            
+           
+        </ul>
+    </header>
+
+    <span id="watermark">
+        <img class="watermark" src="no 10 (2).jpg">
+    </span>
+
+    
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Tokens</button>
+
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">NFTs</button>
+</div>
+
+</div>
+
+<div id="London" class="tabcontent">
+
+    <section id="section">
+        
+        <ol id="coins-list">
+
+
+            <!-- COINS LIST BEGINS HERE -->
+             
+             <li class="coin" onclick="document.location='broker site bitcoin.html'"> <img id="img-btc" src="logo btc.png"> Bitcoin </li>
+            <span id="coins-list-price"> 
+            <div id="Btccoin-price">&dollar;30,288.80     <i id="percent">-0.42%</i></div>
+            <coin id="adminPrice"><price id="wallet-price"> 0  </price> BTC</coin>
+            </span>
+            <br>      
+     <hr  id="first">
+     <br>
+            <li class="coin" onclick="document.location='broker site ethereum.html'"><img id="img-btc" src="logo eth.png"> Ethereum </li>
+            <span id="coins-list-price"> 
+                <div id="Ethcoin-price"> &dollar;1,840.49 <i id="percent">-0.45%</i></div>
+                <coin id="adminPrice"><price id="Ewallet-price"> 0 </price> ETH </coin>
+                </span>
+   <br>      
+     <hr  id="first">
+     <br>        
+            <li class="coin" onclick="document.location='broker site litecoin.html'"> <img id="img-btc" src="logo litecoin.png"> Litecoin </li>
+            
+            <span id="coins-list-price"> 
+                <div class="Ltccoin-price"> &dollar;81.94 <i id="percent">-1.77%</i></div>
+                <coin id="adminPrice"><price id="Lwallet-price"> 0 </price> LTC</coin>
+                </span>
+   <br>      
+     <hr  id="first">
+     <br>        
+            <li class="coin" onclick="document.location='broker site bitcoin cash.html'"><img id="img-btc" src="logo bch.png"> Bitcoin cash </li>
+            
+            <span id="coins-list-price"> 
+                <div class="Bchcoin-price"> &dollar;228.34 <i id="percent">-0.06%</i> </div>
+                <coin id="adminPrice"><price id="BCHwallet-price"> 0</price> BCH </coin>
+                </span>
+   <br>      
+     <hr  id="first">
+     <br>        
+            <li class="coin" onclick="document.location='broker site solana.html'"><img id="img-btc" src="logo sol.png"> Solana </li>
+
+            <span id="coins-list-price"> 
+                <div class="Solcoin-price"> &dollar;24.21 <i id="percent">-2.71%</i></div>
+                <coin id="adminPrice"><price id="SOLwallet-price"> 0 </price> SOL </coin>
+                </span>
+    <br>      
+     <hr  id="first">
+     <br>       
+            <li class="coin" onclick="document.location='broker site ripple.html'"> <img id="img-btc" src="logo xrp.jpg"> Ripple </li>
+
+            <span id="coins-list-price"> 
+            <div class="Xrpcoin-price"> &dollar;0.62   <i id="percent">-0.12%</i> </div>
+            <coin id="adminPrice"><price id="Rwallet-price"> 0 </price> XRP </coin>
+            </span>
+<br>      
+     <hr  id="first">
+     <br>           
+            <li class="coin" onclick="document.location='broker site bnb beacon chain.html'"> <img id="img-btc" src="logo bnb beacon chain.png"> BNB Beacon Chain </li>
+           
+            <span id="coins-list-price"> 
+                <div class="Bnbcoin-price"> &dollar;240.04 <i id="percent">-0.11%</i></div>
+                <coin id="adminPrice"><price id="BNBCwallet-price"> 0 </price> BNB </coin>
+                </span>
+    <br>      
+     <hr  id="first">
+     <br>       
+            <li class="coin" onclick="document.location='broker site bnb smart chain.html'"><img id="img-btc" src="logo bnb smart chain.jpg"> BNB Smart Chain </li>
+           
+            <span id="coins-list-price"> 
+                <div class="Bnbscoin-price"> &dollar;240.04 <i id="percent">-0.11%</i></div>
+                <coin id="adminPrice"><price id="BNBSwallet-price"> 0 </price> BNB </coin>
+                </span>
+    <br>      
+     <hr  id="first">
+     <br>       
+            <li class="coin" onclick="document.location='broker site algorand.html'"><img id="img-btc" src="logo algo.png"> Algorand </li>
+            
+            <span id="coins-list-price"> 
+                <div class="Algocoin-price"> &dollar;0.11 <i id="percent">+0.95%</i></div>
+                <coin id="adminPrice"><price id="ALGwallet-price"> 0  </price> ALGO </coin>
+                </span>
+   <br>      
+     <hr  id="first">
+     <br>        
+            <li class="coin" onclick="document.location='broker site montero.html'"><img id="img-btc" src="logo btc.png"> Montero </li>
+            
+            <span id="coins-list-price"> 
+                <div class="Xmrcoin-price"> &dollar;30.45  <i id="percent">+0.65%</i></div>
+                <coin id="adminPrice"><price id="MXRwallet-price"> 0  </price> XMR </coin>
+                </span>
+
+    <br>      
+                <hr  id="first">
+                <br>        
+                       <li class="coin" onclick="document.location='broker site harmony.html'"><img id="img-btc" src="logo one.png"> Harmony </li>
+                       
+                       <span id="coins-list-price"> 
+                           <div class="Onecoin-price"> &dollar;0.01  <i id="percent">+0.35%</i></div>
+                           <coin id="adminPrice"><price id="HARwallet-price"> 0  </price> ONE </coin>
+                           </span>
+
+      <br>      
+                           <hr  id="first">
+                           <br>        
+ <li class="coin" onclick="document.location='broker site nebulas.html'"><img id="img-btc" src="logo nebulas.png"> Nebulas </li>
+                                  
+    <span id="coins-list-price"> 
+     <div class="Nascoin-price"> &dollar;0.00  <i id="percent">-13.01%</i></div>
+     <coin id="adminPrice"><price id="NEBwallet-price"> 0  </price> NAS </coin>
+    </span>
+
+
+                                      <br>      
+     <hr  id="first">
+     <br>        
+            <li class="coin" onclick="document.location='broker site tron.html'"><img id="img-btc" src="logo tron.png"> Tron </li>
+            
+            <span id="coins-list-price"> 
+                <div class="Trxcoin-price"> &dollar;0.07  <i id="percent">-0.47%</i> </div>
+                <coin id="adminPrice"><price id="TRONwallet-price"> 0  </price> TRX </coin>
+                </span>
+   
+ <br> 
+
+     <hr  id="first">
+     <br>        
+            <li class="coin" onclick="document.location='broker site viacoin.html'"><img id="img-btc" src="logo viacoin.png"> Viacoin</li>
+            
+            <span id="coins-list-price"> 
+                <div class="Viacoin-price"> &dollar;0.02       <i id="percent">+2.75%</i> </div>
+                <coin id="adminPrice"><price  id="VIAwallet-price"> 0  </price> VIA </coin>
+                </span>
+   
+      <br>      
+                <hr  id="first">
+                <br>        
+                       <li class="coin" onclick="document.location='broker site dai stablecoin.html'"><img id="img-btc" src="logo dia stable coin.png"> (PoS) Dai Stablecoin </li>
+                       
+                       <span id="coins-list-price"> 
+                           <div class="Daicoin-price"> &dollar;0.99        <i id="percent">-0.03%</i> </div>
+                           <coin id="adminPrice"><price id="POSSwallet-price"> 0  </price> DAI </coin>
+                           </span>           
+
+                           <br>      
+     <hr  id="first">
+     <br>        
+            <li class="coin" onclick="document.location='broker site tether-3.html'"><img id="img-btc" src="logo tether.png"> (PoS) Tether USD </li>
+            
+            <span id="coins-list-price"> 
+                <div class="usdtcoin-price"> &dollar;0.99        <i id="percent">-0.01%</i> </div>
+                <coin id="adminPrice"><price id="POSUSDTwallet-price"> 0 </price> USDT </coin>
+                </span>
+   
+  <br>      
+                <hr  id="first">
+                <br>        
+                       <li class="coin" onclick="document.location='broker site tether-1.html'"><img id="img-btc" src="logo tether.png"> Tether </li>
+                       
+                       <span id="coins-list-price"> 
+                           <div class="usdtcoin-price"> &dollar;0.99        <i id="percent">-0.01%</i> </div>
+                           <coin id="adminPrice"><price id="USDTwallet-price"> 0  </price> USDT </coin>
+                           </span>
+
+
+    
+  <br>      
+  <hr  id="first">
+  <br>        
+         <li class="coin" onclick="document.location='broker site tether-2.html'"><img id="img-btc" src="logo tether.png"> Tether </li>
+         
+         <span id="coins-list-price"> 
+             <div class="usdtcoin-price"> &dollar;0.99        <i id="percent">-0.01%</i> </div>
+             <coin id="adminPrice"><price  id="USDT2wallet-price"> 0  </price> USDT </coin> 
+             </span>
+
+
+             
+  <br>      
+  <hr  id="first">
+  <br>        
+         <li class="coin" onclick="document.location='broker site binance usd.html'"><img id="img-btc" src="logo busd.png"> Binance USD </li>
+         
+         <span id="coins-list-price"> 
+             <div class="Busdcoin-price"> &dollar;0.99        <i id="percent">-0.02%</i> </div>
+             <coin id="adminPrice"><price  id="BNBUSDwallet-price"> 0  </price> BUSD </coin>
+             </span>
+ 
+                       
+  <br>      
+  <hr  id="first">
+  <br>        
+         <li class="coin" onclick="document.location='broker site binance pegged.html'"><img id="img-btc" src="logo busd.png"> BNB pegged USD </li>
+         
+         <span id="coins-list-price"> 
+             <div class="Busdcoin-price"> &dollar;0.99        <i id="percent">-0.02%</i> </div>
+             <coin id="adminPrice"><price  id="BNBPwallet-price"> 0  </price> BUSD </coin>
+             </span>
+
+          
+   <br>      
+             <hr  id="first">
+             <br>        
+                    <li class="coin" onclick="document.location='broker site dash.html'"> <img id="img-btc" src="logo dash.png"> Dash </li>
+                    
+                    <span id="coins-list-price"> 
+                        <div class="Dashcoin-price"> &dollar;31.96  <i id="percent">-0.87%</i> </div>
+                        <coin id="adminPrice"><price  id="DASHwallet-price"> 0  </price> DASH </coin>
+                        </span>
+          
+     <br>      
+                        <hr  id="first">
+                        <br>        
+                               <li class="coin" onclick="document.location='broker site rune.html'"><img id="img-btc" src="logo thorcoin.png"> THORChain </li>
+                               
+                               <span id="coins-list-price"> 
+                                   <div class="Runecoin-price"> &dollar;1.38 <i id="percent">+8.86%</i> </div>
+                                   <coin id="adminPrice"><price id="THORwallet-price"> 0  </price> RUNE </coin>
+                                   </span>
+      
+              
+  <br>      
+  <hr  id="first">
+  <br>        
+         <li class="coin" onclick="document.location='broker site waves.html'"><img id="img-btc" src="logo waves.png"> Waves </li>
+         
+         <span id="coins-list-price"> 
+             <div class="Wavecoin-price"> &dollar;1.90     <i id="percent">-2.52%</i></div>
+             <coin id="adminPrice"><price  id="WAVEwallet-price"> 0  </price> WAVES </coin>
+             </span>
+
+                        
+  <br>      
+  <hr  id="first">
+  <br>        
+         <li class="coin" onclick="document.location='broker site zil.html'"><img id="img-btc" src="logo zil.png"> Zilliqa </li>
+         
+         <span id="coins-list-price"> 
+             <div class="Zilcoin-price"> &dollar;0.01  <i id="percent">-0.44%</i> </div>
+             <coin id="adminPrice"><price  id="ZILwallet-price"> 0 </price> ZIL </coin>
+             </span>
+
+
+    <br>      
+     <hr  id="first">
+     <br>       
+            <li class="coin" onclick="document.location='broker site alpaca.html'"><img id="img-btc" src="logo alpaca.png"> Alpaca </li>
+            
+            <span id="coins-list-price"> 
+                <div class="Alpcoin-price"> &dollar;0.15       <i id="percent">+1.59%</i> </div>
+                <coin id="adminPrice"><price id="ALPwallet-price"> 0 </price> ALPACA </coin>
+                </span>
+
+
+   <br>      
+     <hr  id="first">
+     <br>        
+             <li class="coin" onclick="document.location='broker site usd coin.html'"><img id="img-btc" src="logo usdc.png"> Usd Coin (PoS) </li>
+            
+             <span id="coins-list-price"> 
+                <div class="usdccoin-price"> &dollar;1.00       <i id="percent">+0.01%</i> </div>
+                <coin id="adminPrice"><price id="USDCwallet-price"> 0  </price> USDC </coin>
+                </span>
+   <br>      
+     <hr  id="first">
+     <br>        
+             <li class="coin" onclick="document.location='broker site dogecoin.html'"><img id="img-btc" src="logo doge.png"> Dogecoin </li>
+             
+             <span id="coins-list-price"> 
+                <div class="Dogecoin-price"> &dollar;0.07       <i id="percent">-2.25%</i></div>
+                <coin id="adminPrice"><price id="DOGEwallet-price"> 0 </price> DOGE</coin>
+                </span>
+    <br>      
+     <hr  id="first">
+     <br>       
+             <li class="coin" onclick="document.location='broker site ada.html'"><img id="img-btc" src="logo ada.png"> Cardano </li>
+             
+             <span id="coins-list-price"> 
+                <div class="Adacoin-price"> &dollar;0.28           <i id="percent">-0.35%</i> </div>
+                <coin id="adminPrice"><price  id="CARwallet-price"> 0 </price> ADA </coin>
+                </span>
+     <br>      
+     <hr  id="first">
+     <br>      
+         <li class="coin" onclick="document.location='broker site celo.html'"><img id="img-btc" src="logo celo.png"> Celo  </li>
+        
+         <span id="coins-list-price"> 
+            <div class="Celocoin-price"> &dollar;0.50       <i id="percent">-3.82%</i> </div>
+            <coin id="adminPrice"><price  id="CELOwallet-price"> 0  </price> CELO </coin>
+            </span>
+   <br>      
+     <hr  id="first">
+     <br>
+    <li class="coin" onclick="document.location='broker site polygon.html'"><img id="img-btc" src="logo polygon matic.png"> Polygon  </li>
+        
+    <span id="coins-list-price"> 
+       <div class="Maticcoin-price"> &dollar;0.67        <i id="percent">-0.78%</i> </div>
+       <coin id="adminPrice"><price  id="MATICwallet-price"> 0  </price> MATIC </coin>
+       </span>
+<br>      
+     <hr  id="first">
+     <br>
+    <li class="coin" onclick="document.location='broker site thunder coin.html'"><img id="img-btc" src="logo tt.png"> Thunder Coin  </li>
+        
+    <span id="coins-list-price"> 
+       <div class="TTcoin-price"> &dollar;0.00        <i id="percent">-0.02%</i> </div>
+       <coin id="adminPrice"><price id="THUNDwallet-price"> 0  </price> TT </coin>
+       </span>
+
+<br>      
+     <hr  id="first">
+     <br>
+    <li class="coin" onclick="document.location='broker site ethereum classic.html'"><img id="img-btc" src="logo etc.png"> Ethereum Classic  </li>
+        
+    <span id="coins-list-price"> 
+       <div class="Etccoin-price"> &dollar;17.51       <i id="percent">-1.18%</i> </div>
+       <coin id="adminPrice"><price id="ETHCwallet-price"> 0  </price> ETC </coin>
+       </span>
+
+ <br>      
+     <hr  id="first">
+     <br>
+    <li class="coin" onclick="document.location='broker site ethereum arbitrium.html'"><img id="img-btc" src="logo arbitrium.png"> Arbitrium  </li>
+        
+    <span id="coins-list-price"> 
+       <div class="Arbcoin-price"> &dollar;1,840.49        <i id="percent">-0.45%</i> </div>
+       <coin id="adminPrice"><price  id="ARBwallet-price"> 0  </price> ETH </coin>
+       </span>
+
+<!--COINS LIST END HERE-->
+<br>      
+     <hr  id="first">
+     <br>
+
+            <p id="end"> --END-- </p>
+
+
+
+            <div id="Btccoin-price"> Loading... </div>
+            <br>
+            <br>
+            <br>
+            <br>
+              
+        </ol>
+
+    </section>
+</div>
+
+
+
+<div id="Tokyo" class="tabcontent">
+    <c> &#9910;</c>
+    <h3>Collectibles will appear here</h3>
+    <p id="nft" onclick="document.location='https://www.nft.com'">No NFT Yet</p>
+    
+</div>
+  
+
+
+<footer id="footer">
+
+    <ul id="list-2">
+        
+        <li id="wallet" onclick="document.location='tab.html'"> <coin id="wal-icon"> &#128188;</coin> <br> Wallet </li>
+
+        <li id="statistics" onclick="document.location='https://www.tradingview.com/chart/?symbol=BITSTAMP%3ABTCUSD'">  <coin id="wal-icon"> &#128200;</coin> <br>Statistics</li>
+
+        
+        <li id="account" onclick="document.location='https://www.google.com/'"> <coin id="wal-icon"> &#127757;</coin> <br> Browse</li>
+
+        
+        <li id="settings" onclick="document.location='broker site settings.html'"> <coin id="wal-icon"> &#9881;</coin> <br> Settings </li>
+    </ul>
+</footer>
+
+
+<script src="tab.js">
+
+</script>
+   
+</body>
+</html> 

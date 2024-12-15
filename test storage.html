@@ -1,0 +1,22 @@
+<html>
+
+        <div id="demo"> test </div>
+
+        <script>
+
+            function load(){
+
+                var demo = document.getElementById("demo");
+
+                var Demo = localStorage.getItem("SavedBCoinAmt");
+
+                if(Demo){
+
+                    demo.innerHTML = Demo;
+                }
+            }  
+            
+            window.onload = load();
+
+        </script>
+</html>

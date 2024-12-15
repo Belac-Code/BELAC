@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cryptocurrency Prices</title>
+  <style>
+    .coin-price {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Current Cryptocurrency Prices</h1>
+
+  <!-- Divs to display the price of different coins -->
+  <div id="Btccoin-price" class="coin-price">Loading Btc...</div>
+  <div id="Ethcoin-price" class="coin-price">Loading Ethereum...</div>
+  <div id="Solcoin-price" class="coin-price">Loading Solana...</div>
+  <div id="Ltccoin-price" class="coin-price">Loading Litecoin...</div>
+  <div id="Xrpcoin-price" class="coin-price">Loading Ripple...</div>
+
+
+<br>
+<br>
+<br>
+<br>
+  
+</body>
+
+
+
+
+
+<script>
+    
+function fetchCryptoPrices() {
+    btcprice.style.color = "green";
+    fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana,litecoin,ripple&vs_currencies=usd')
+        .then(response => response.json()) // Parse the JSON response
+        .then(data => {
+          // Extract the prices from the response
+          const btcPrice = data.bitcoin.usd;
+          const ethPrice = data.ethereum.usd;
+          const solPrice = data.solana.usd;
+          const ltcPrice = data.litecoin.usd;
+          const xrpPrice = data.ripple.usd;
+
+          // Update the content of the divs with the prices
+          document.getElementById('Btccoin-price').textContent = ` $${btcPrice.toFixed(2)}`;
+          document.getElementById('Ethcoin-price').textContent = ` $${ethPrice.toFixed(2)}`;
+          document.getElementById('Solcoin-price').textContent = ` $${solPrice.toFixed(2)}`;
+          document.getElementById('Ltccoin-price').textContent = ` $${ltcPrice.toFixed(2)}`;
+          document.getElementById('Xrpcoin-price').textContent = ` $${xrpPrice.toFixed(2)}`;
+        })
+        .catch(error => {
+          // Handle any errors that occur during the fetch
+          console.error('Error fetching cryptocurrency prices:', error);
+          document.getElementById('Btccoin-price').textContent = 'Err';
+          document.getElementById('Ethcoin-price').textContent = 'Err';
+          document.getElementById('Solcoin-price').textContent = 'Err';
+          document.getElementById('Ltccoin-price').textContent = 'Err';
+          document.getElementById('Xrpcoin-price').textContent = 'Err';
+        });
+
+       
+    }
+
+    // Call the function to fetch the prices when the page loads
+    
+    window.onload = fetchCryptoPrices;
+
+
+    
+    
+ </script>
+
+
+</html>

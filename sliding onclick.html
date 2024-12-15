@@ -1,0 +1,239 @@
+<html>
+
+<header>
+
+    
+
+    <h1> THIS IS A TEST5</h1>
+    <hr>
+    <br>
+
+    
+   
+</header>       
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+    <span id="wrapper">
+
+
+            <ul id="listwrap">
+
+
+                <li id="one"> 
+                    
+                    <p> I have invested with this platform and gotten my money in my account. This is legit and safe. Great doing business with them.
+                    </p>
+                        <hr>
+                    <img src="pic.png" width="100px" height="100px" border-radius="100px">
+
+                    <h2> Melodie Ferguson
+                        User from India </h2>
+                </li>
+                <li id="two">
+                    
+                    <p> I have invested with this platform and gotten my money in my account. This is legit and safe. Great doing business with them.
+                    </p>
+                        <hr>
+                    <img src="pic2.jpg" width="100px" height="100px" border-radius="100px">
+
+                    <h2> Melodie Ferguson
+                        User from India </h2>
+                </li>
+                <!--
+                <li id="three"> THREE </li>
+                <li id="four"> FOUR </li>
+-->
+            </ul>
+
+        
+ </span>
+
+  
+
+       
+<div id="buttons"> 
+    <button id="prev"  onclick="prev()">PREV</button>  <button id="next" onclick="next()">NEXT</button>
+    </div> 
+
+       <style>
+              
+
+                h1{
+
+                        font-size: 3em;
+                        color: red;
+                        text-align: center;
+
+                }
+
+                #header{
+
+                            position: ;
+                }
+
+              
+
+                #wrapper{
+
+                                text-align: center;
+                                width: 80%;
+                          
+                               
+
+                }
+
+
+                #listwrap{
+                            list-style: none;
+                            display: flex;
+                            justify-content: center;
+                          
+                          
+                            
+                                                       
+                }
+
+                #one{
+
+
+                             
+                                width: 90%;
+                                height: auto;
+                                background-color: blue;
+                               visibility: visible;
+                               position:absolute;
+                               padding: 20px;
+                               color: white;
+                            }
+
+
+                p{
+
+                       
+                        font-size: larger;
+                }
+               
+                #two{
+
+
+                             
+
+                                width: 90%;
+                                height: auto;
+                                background-color: rgb(0, 255, 13);
+                                color: black;
+                                position:absolute;
+                                visibility: hidden;
+                                padding: 20px;
+                }
+
+                #buttons{
+
+                       
+
+                        text-align: center;
+                       
+                        
+                        
+                }
+
+
+                #prev{
+
+                            position: absolute;
+                            left:2px;
+                            margin-top: 15px;
+                }
+                #next{
+
+                            position: absolute;
+                            right:2px;
+                            margin-top: 15px;
+                }
+               
+               /*
+                #three{
+
+
+                               
+
+                                height: 200px;
+                                background-color: orange;
+                                
+                }
+                
+              
+                #four{
+
+
+                               
+
+                                height: 200px;
+                                background-color: green;
+                                
+                }
+               */
+               
+
+       </style>
+       
+       
+       
+       
+       
+       
+       <script>
+
+
+
+                    function prev(){
+
+                         var prev = document.getElementById("one");
+                         var next = document.getElementById("two");
+                         prev.style.transition = "1s";
+                         prev.style.visibility = "hidden";
+                         next.style.visibility = "visible";
+
+                       
+                    }
+
+
+
+                    function next(){
+
+                        var prev = document.getElementById("one");
+                         var next = document.getElementById("two");
+
+                         prev.style.visibility = "visible";
+                         next.style.visibility = "hidden";
+                        
+
+                    }
+
+                    setInterval(()=>{
+                       
+                       prev();
+                       
+                    }, 4000)
+
+                    setInterval(()=>{
+                       
+                       next();
+
+                       
+                    }, 8000)
+
+                    
+                    
+
+        </script> 
+
+
+</html>
