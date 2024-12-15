@@ -1,0 +1,292 @@
+body        { background-color: rgb(3, 3, 24);
+  color:white;
+
+}
+
+
+@media only screen and (min-width:100px) {.head       { text-align: center;
+background-color: rgb(20, 25, 68);
+position: fixed;
+width:100%;
+z-index: 2;
+top:-1px;
+left:-5px;
+height: 130px;
+padding: 20px;
+
+}
+}
+
+#search         { width: 350px;
+                height: 28px;
+                border: transparent;
+                background-color: transparent;
+                font-size:25px;
+                opacity: 0.7;
+                display: flex;
+                justify-content: left;
+               margin-left:94px;
+               margin-top:-60px;
+               color:white;
+}
+
+
+
+#current-bal    { font-size: 50pt;
+    margin-top: -0.9px;
+
+}
+
+#wallet-balance { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+    font-style: italic;
+
+}
+
+#list-1     { display: flex;
+justify-content: center;
+list-style: none;
+cursor: pointer;
+color:black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#send       { margin-left: 20px;
+background-color: aqua;
+border-radius:15px;
+border: transparent;
+padding-top: 10px;
+width: 100px;
+height:30px;
+
+}
+
+
+#send:hover       { margin-left: 20px;
+background-color:green;
+border-radius:15px;
+border: transparent;
+padding-top: 10px;
+width: 100px;
+height:30px;
+
+}
+
+
+#receive       { margin-left: 20px;
+background-color: aqua;
+border-radius:15px;
+border: transparent;
+padding-top: 10px;
+width: 100px;
+height:30px;
+}
+
+
+#receive:hover       { margin-left: 20px;
+background-color:green;
+border-radius:15px;
+border: transparent;
+padding-top: 10px;
+width: 100px;
+height:30px;
+
+}
+
+
+#deposit       { margin-left: 20px;
+background-color: aqua;
+border-radius:15px;
+border: transparent;
+padding-top: 10px;
+width: 100px;
+height:30px;
+
+}
+
+
+#deposit:hover       { margin-left: 20px;
+background-color:green;
+border-radius:15px;
+border: transparent;
+padding-top: 10px;
+width: 100px;
+height:30px;
+
+}
+
+
+#withdraw       { margin-left: 20px;
+background-color: aqua;
+border-radius:15px;
+border: transparent;
+padding-top: 10px;
+width: 100px;
+height:30px;
+
+}
+
+
+
+#withdraw:hover       { margin-left: 20px;
+background-color:green;
+border-radius:15px;
+border: transparent;
+padding-top: 10px;
+width: 100px;
+height:30px;
+}
+
+@media only screen and (min-width:100px) {#section        { font-family:Arial, Helvetica, sans-serif;
+    
+}    
+
+}
+
+a       {  color: white;
+          text-decoration: none;
+        
+
+}
+
+#img-btc        { height: 60px;
+width: 60px;
+position: absolute;
+left: 19px;
+margin-top: -10px;
+
+}
+
+#percent      {
+font-size: 10px;
+color:grey;
+opacity: 0.5;
+margin-left: 10px;
+}
+
+
+#first          { opacity: 0.1;
+   width:100%;
+   margin-left: 5px;
+   color:black;
+
+}
+
+
+#coins-list {
+  display: ;
+  list-style: none;
+  margin-left: 35px;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+.coin-price      {
+      font-size: 12px;
+}
+
+.coin       { font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+
+
+}
+
+
+#coins-list-price {
+      display: flex;
+      position: absolute;
+      right: 5px;
+      margin-top: -11px;
+      font-size: 20px;
+}
+
+.wallet-price   {
+    position: absolute;
+  right:30px;
+  font-size: 15px;
+} 
+
+.wal-icon   { font-size:20px;
+
+}
+
+@media only screen and (min-width:100px) { #footer     {
+position: fixed;
+bottom: 0.5px;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(20, 25, 68);
+width: 100%;
+height: 50px;
+left: -3px;
+padding: 15px;
+
+padding-top: 10px;
+text-align: center;
+}
+}
+
+.src         { text-align: center;
+              color: grey;
+              opacity: 0.7;
+
+}
+
+#list-2     { display: flex;
+justify-content: space-around;
+  
+  list-style: none;
+  cursor: pointer;
+  
+  
+
+}
+
+
+
+
+
+
+
+#wallet      { 
+    
+
+}
+
+
+#wallet:hover {
+color:aqua; 
+}
+
+
+
+#statistics       { 
+
+}
+
+#statistics:hover {
+color:aqua; 
+}
+
+
+#account       {
+
+}
+
+#account:hover {
+color:aqua; 
+}
+
+
+
+#settings       { 
+
+}
+
+#settings:hover {
+color:aqua; 
+}

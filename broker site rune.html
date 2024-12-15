@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.broker site.home</title>
+        <link rel="stylesheet" href="broker site bitcoin.css">
+    </head>
+
+    <header class="head">
+        <img id="img-btc" src="logo thorcoin.png">
+        <h1 id="current-bal">
+            <coin id="coin-price"> <price id="wallet-balance"> 0  </price> RUNE </coin>
+
+        </h1>
+    
+        <ul id="list-1">
+
+            <li id="send" onclick="document.location='broker site rune-send.html'">
+                &dArr; 
+               </li>
+            <div id="send-text">Send</div>
+            
+           
+            <li id="receive" onclick="document.location='broker site rune-receive.html'">
+                &rrarr;
+            </li>
+            <div id="receive-text">Receive</div>
+            
+           
+    
+            <li id="deposit" onclick="document.location='broker site rune-deposit.html'">
+                &rarrb;
+            </li>
+            <div id="buy-text">Buy</div>
+            
+    
+
+            <li id="withdraw" onclick="document.location='broker site rune-withdraw.html'">
+                 &lArr;
+            </li>
+            <div id="withdraw-text">Withdraw</div>
+            
+           
+        </ul>
+    
+</header>
+
+
+<br>
+<br>
+<br>
+     <section id="section">
+
+                    <button id="button" type="button" onclick="myFunction()"> Transactions </button>
+                  
+     </section>
+    
+     <div id="display">
+        <p id="demo"> </p>
+     </div>
+                       
+    
+    <span id="watermark">
+        <img class="watermark" src="no 10 (2).jpg">
+    </span>
+
+
+
+
+   
+    <script>
+        
+        function myFunction() { document.getElementById("demo").innerHTML = "No Transactions yet"; }
+
+
+
+  
+// COIN PRICE CODE ----------------------------------------------------
+function load(){
+ 
+ 
+var currentBal = document.getElementById("wallet-balance");
+ var savedBal = localStorage.getItem("SavedTHORCoinAmt");
+ 
+   
+
+ 
+ if(savedBal){
+
+    currentBal.innerText = savedBal;
+   
+    
+    }
+
+
+}
+                window.onload = load();
+                
+                
+   </script>
+</html>

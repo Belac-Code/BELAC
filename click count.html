@@ -1,0 +1,56 @@
+<html>
+
+
+            <button id="dropBtn" onclick="dropdown()">Drop BTN</button>
+
+            <ul id="dropMenu">
+
+                <li id="one"></li> 
+                <br>  
+                <li id="one"></li>  
+                <br> 
+                <li id="one"></li>   
+            </ul>
+
+
+
+            <style>
+
+                    #dropBtn{
+
+                    }
+
+                    #dropMenu{
+
+                       position: absolute;
+                       display:none ;
+                       list-style: none;
+                    }
+                    #one{
+
+                        background-color: blue;
+                        width: 25px;
+                        height: 25px;
+                    }
+            </style>
+
+        <script>
+
+                function dropdown(){
+
+                    var menu =document.getElementById("dropMenu");
+                    if(menu.style.display==="block"){
+
+                        menu.style.display = "none";
+                    }
+                    else{
+
+                        menu.style.display = "block";
+                    }
+                }
+
+                 
+                    
+        </script>
+
+</html>

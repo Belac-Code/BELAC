@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.broker site send</title>
+        <link rel="stylesheet" href="broker site bitcoin-send.css">
+    </head>
+
+    <header class="head">
+        <img id="img-btc" src="logo tether.png">
+        <div id="price"> Send Tether Usdt (TRC20)</div>
+        <p> <price id="wallet-balance">0 </price> USDT </p>
+    </header>
+   
+    
+    <section id="section">
+       <label for="text">Enter Amount</label>
+       <br>
+       <br>
+       <input id="input" type="number" placeholder="0.00 USDT" value=""> 
+       <br>
+       <br>
+       <label for="text">From:</label>
+       <br>
+      <div id="wal-add" onclick="copyText()"> Copy wallet address </div>
+    <input id="input" type="text" placeholder="input senders wallet address" value=""> 
+       <br> 
+       <br>
+       <label for="text">To:</label>
+       <br>
+       <br>
+       <input id="input" type="text" placeholder=  "input receipents wallet address" value=""> 
+       <br>
+       <br>
+       <button id="button" onclick="document.location='broker site tether-2-send.html'"> Reset </button>
+       <br>
+       <br>
+       <button id="button" onclick="document.location='broker site insufficent amout.html'"> Next</button>
+      
+       </section>
+     
+       <script>
+   
+           function copyText() {  navigator.clipboard.writeText
+               ("bc1qn38p54wksq2jj2fxsf6que6kj3ca08cldv7s47")
+            }
+   
+            function load(){
+    
+    
+    var currentBal = document.getElementById("wallet-balance");
+     var savedBal = localStorage.getItem("SavedUSDT2CoinAmt");
+     
+       
+    
+     
+     if(savedBal){
+    
+        currentBal.innerText = savedBal;
+       
+        
+        }
+    
+    
+    }
+                    window.onload = load();
+           
+   
+       </script>
+     
+   
+   </html>

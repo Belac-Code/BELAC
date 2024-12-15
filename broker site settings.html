@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.broker site send</title>
+        <link rel="stylesheet" href="broker site settings.css">
+    </head>
+
+    <header class="head">
+       <h1 id="wal"> <b id="name"> A </b>CE WALLET </h1> 
+ </header>
+
+ <section class="drop-down">
+
+    <button class="profile"> Profile &#128100; </button>
+    <br>
+    <br>
+    <span class="drop-down-content">
+
+        <div id="userNameTitle">Name: &#128100; <br> </div> <b id="userName"> </b>
+
+        <br>
+        
+        <br>
+        
+        <div class="userPhoneTitle"  id="tel">Phone No: &#128222;<br></div> <b id="userTel"> </b>
+        
+        <br>
+        
+        <br>
+        
+        <div id="userEmailTitle">Email: &#9993; <br></div> <b id="userEmail"> </b>
+        
+        <br>
+        
+        <br>
+        
+        <div id="userPasswordTitle">Password: &#128272;</div> <b id="userPassword"> </b> 
+        
+        <br>
+        
+        <br>
+        
+
+
+        </span>
+        
+
+</section>
+<br>
+<br> 
+<br>
+<section class="drop-down2">
+    
+        <button id="change-password"> Change Password &#128272;</button>
+        <br>
+        
+        <span id="drop-down-content2"> 
+
+        <div class="new-pass" for="password" > New Password  </div>
+   
+        <br>
+        
+        <input id="new-pass" type="password" name="password" placeholder="&#128273;">
+        <br>
+        <br>
+        <div class="new-pass" for="password" > Confirm Password </div>
+        <br>
+        <input id="new-pass" type="password" placeholder="&#128273;">
+        <br>
+
+        <input id="confirm" type="checkbox">
+        <b class="confirm" for="text"> A Confirmation code would be sent to your email </b>
+       
+        <br>
+        <br>
+        <a id="open-emal" href="https://www.gmail.com">Open Email &#9993;</a>
+        
+    
+    </span>
+</section>
+        
+<br>
+<br>
+<br>
+<section class="drop-down3">
+   
+        <button id="confirm-email"> Confirm Email &#128231; </button>
+        <br>
+<span id="drop-down-content3"> 
+
+        <label class="con-email" for="email"> Input Email </label>
+        <br>
+        <br>
+        <input id="con-email" type="email" placeholder="&#9993;">
+        <br>
+
+        <br>
+        <br>
+        <a id="open-emal" href="https://www.gmail.com">Open Email &#9993;</a>
+       
+    </span>
+</section>
+        <br>
+        <br>
+        <br>
+<section class="drop-down4">
+   
+        <button id="confirm-tel"> Confirm Phone &#128222;</button>
+        <br>
+<span id="drop-down-content4"> 
+
+        <label class="con-tel" for="tel"> Input Phone Number </label>
+        <br>
+        <br>
+        <input id="con-tel" for="tel" type="tel" placeholder="&#9990;">
+        <br>
+
+        <input id="confirm" type="checkbox">
+        <div id="code" onclick="myFunction()">Verify</div>
+        <br>
+        <p id="demo1"> </p>
+           </span>
+
+
+           
+</section>
+        <script>
+            function myFunction() {
+                document.getElementById("demo1").innerHTML = "verification code has been sent" + '<br>' + '<a href="https:www.gmail.com">' + "Open Email &#9993" + '</a>';      
+            }
+
+            
+			function onload(){
+
+var Name = localStorage.getItem("SavedName");
+var Phone = localStorage.getItem("SavedPhone");
+var Email = localStorage.getItem("SavedEmail");
+var Password = localStorage.getItem("SavedPassword");
+
+
+
+var userName = document.getElementById("userName");
+var userTel = document.getElementById("userTel");
+var userEmail = document.getElementById("userEmail");
+var userPassword = document.getElementById("userPassword");
+
+
+
+if (Name){
+
+userName.innerText = Name;
+}
+
+
+
+if (Phone){
+
+userTel.innerText = Phone;
+}
+
+
+if (Email){
+
+userEmail.innerText = Email;
+}
+
+
+if (Password){
+
+userPassword.innerText = Password;
+}
+
+}
+
+
+window.onload = onload();
+
+function Logout(){
+
+document.location = "logins.html";
+
+
+}		
+
+                   </script>
+</html>

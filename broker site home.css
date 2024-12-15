@@ -1,0 +1,592 @@
+body        { background-color: rgb(3, 3, 24);
+                color:white;
+
+}
+
+#option         {
+
+  overflow: hidden;
+  cursor: pointer;
+  }
+
+.container          {  position: absolute;
+  left: 1.2%;
+  margin-top: -20px;
+ 
+      
+}
+
+
+
+.bar1 {
+          background-color: blue;
+          width: 28px;
+          height: 3px;
+          border-radius: 15px;
+         
+}
+
+.bar2 {
+background-color: blue;
+width: 21px;
+height: 3px;
+margin-top: -15px;
+border-radius: 15px;
+
+}
+
+
+.bar3 {
+background-color:blue;
+width: 28px;
+height: 3px;    
+margin-top: -15px;
+border-radius: 15px;
+
+}
+
+
+
+
+#taskbarwrapper       {
+
+  background-color: rgb(1, 1, 31);
+  z-index: 2;
+  width: 300px;
+
+  text-align: left;
+
+  padding: 20px;
+  position: absolute;
+  margin-top: -20px;
+  border-radius: 5px;
+  cursor: pointer;
+  visibility: hidden;
+
+}
+
+#cancelbtn{
+
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+}
+
+#cancelbtn:hover{
+
+  background-color: rgb(13, 14, 83);
+  border-radius: 5px;
+}
+
+#barlistwrap{
+
+  list-style:none;
+ 
+}
+
+#barlist{
+
+      
+      padding: 10px;
+      margin-left: -15px;
+}
+
+#barlist:hover{
+
+      background-color: aliceblue;
+    
+      border-radius: 5px;
+      color:black;
+}
+
+img     {
+            z-index: ;
+            overflow:hidden;
+}
+
+#barimg         {
+                  margin-left: 30px;
+                  
+                  position: ;
+                  width: 120px;
+                  height: 120px;
+                  border-radius: 100px;
+                  z-index: 1;
+                
+                 
+}
+
+#cancel   {
+              color: white;
+              font-size: 20pt;
+              z-index: 2;
+              position: relative;
+              margin-left: 47px;
+}
+
+
+
+#link       {
+  position: absolute;
+  margin-top: 40%;
+  }
+ 
+#link:hover       {
+              font-style: ;
+              background-color: white;
+              color: black;
+              font-size: ;
+              height: 5%;
+              width: 80%;
+              position: absolute;
+              border-radius: 10px;
+              padding-left: 10px;
+}
+
+a           {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 13%;
+  margin-top: ;
+  
+}
+
+
+
+
+
+@media only screen and (min-width:100px) { .head       { text-align: center;
+    background-color: rgb(20, 25, 68);
+    position: fixed;
+    width:100%;
+    z-index: 2;
+    top:-1px;
+    height: 220px;
+    left:-2.5px;
+}
+
+}
+
+#current-bal    { font-size: 40pt;
+                  margin-top: 5px;
+
+}
+
+#wallet-balance { font-family: 'Courier New', Courier, monospace;
+                  font-size: 9pt;
+                  font-style: ;
+                  margin-bottom: ;
+
+}
+
+
+#watermark      {
+                    position: fixed;
+                    top:30%;
+                    left: 35%;
+                    opacity: 0.01;
+}
+
+.watermark    {
+                  border-radius: 100px;
+}
+
+#hide {
+
+              font-size: 30px;
+              position: absolute;
+              margin-left: 20px;
+              margin-top: 11px;
+              border-radius: 100px;
+              border: none;
+
+
+}
+
+@media only screen and (min-width:100px) { #list-1     { display: flex;
+              justify-content: center;
+              list-style: none;
+              cursor: pointer;
+              color:white;
+              margin-top: -15px;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              width: 100%;
+              height: auto;
+
+} 
+}
+
+#send-text  {   position: relative;
+                margin-top: 55px;
+                left:-45.5px;
+                font-size: 15px;
+                font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+#send       { margin-left: 20px;
+              background-color: rgb(30, 30, 158);
+              border-radius:50px;
+              border: transparent;
+              padding-top: 10px;
+              padding-bottom: -10px;
+              width: 50px;
+              height:40px;
+}
+
+
+#send:hover       { 
+  background-color: green;
+  box-shadow: 1px 1px 1px black;
+  transform: rotate(-50deg);
+}
+  
+
+
+
+#receive-text  {   position: relative;
+  margin-top: 55px;
+ left:-45.5px;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+#receive       { margin-left: 20px;
+    background-color:rgb(30, 30, 158);
+    border-radius:50px;
+    border: transparent;
+    padding-top: 10px;
+    width: 50px;
+    height:40px;
+    }
+
+
+#receive:hover       { 
+    background-color:green;
+    box-shadow: 1px 1px 1px black;
+    transform: rotate(-55deg);
+  
+
+}
+
+
+#buy-text  {   position: relative;
+  margin-top: 55px;
+ left:-45.5px;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+#deposit       { margin-left:;
+    background-color:rgb(30, 30, 158);
+    border-radius:50px;
+    border: transparent;
+    padding-top: 10px;
+    width: 50px;
+    height:40px;
+    
+}
+
+
+#deposit:hover       { 
+  background-color:green;
+  box-shadow: 1px 1px 1px black;
+  transform: rotate(70deg);
+  
+ 
+}
+
+
+#withdraw-text  {   position: relative;
+  margin-top: 55px;
+  left:-45.5px;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+#withdraw       { margin-left: 20px;
+    background-color:rgb(30, 30, 158);
+    border-radius:50px;
+    border: transparent;
+    padding-top: 10px;
+    width: 50px;
+    height:40px;
+    
+}
+
+
+
+#withdraw:hover       { 
+  background-color:green;
+  box-shadow: 1px 1px 1px black;
+  transform: rotate(0deg);
+  
+ }
+
+
+#img-btc        { height: 50px;
+                  width: 50px;
+                  position: absolute;
+                  left: 19px;
+                  margin-top: -10px;
+
+}
+
+
+
+#percent      {
+                  font-size: 10px;
+                  color:grey;
+                  opacity: 0.5;
+                  margin-left: 10px;
+}
+
+#first          { opacity: 0.05;
+  width:91%;
+  margin-left: -55px;
+  color:black;
+  margin-top:-1%;
+  position: absolute;
+
+}
+
+
+
+#first1          { opacity: 0.1;
+                 width:1150px;
+                 margin-left: 5px;
+                 color:black;
+                 margin-top:34.5%;
+                 position: absolute;
+
+}
+
+
+#first2          { opacity: 0.1;
+  width:100%;
+  margin-left: 5px;
+  color:black;
+  margin-top:40%;
+ position: absolute;
+
+
+}
+
+
+@media only screen and (min-width:100px) {#section        { font-family:Arial, Helvetica, sans-serif;
+    width: 90%;
+    
+    margin-top: 300px;
+                    
+}
+}
+
+@media only screen and (min-width:100px) { #coins-list {
+                display: ;
+                list-style: none;
+                margin-left: 35px;
+                cursor: pointer;
+               
+                
+}
+}
+
+.coin-price      {
+                    font-size: 12px;
+}
+
+.coin       { font-size: 15pt;
+                cursor: pointer;
+             
+}
+
+
+#coins-list-price {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: end;
+}
+
+#adminPrice   {
+                 
+  
+  position: absolute;
+  right:50px;
+            } 
+
+.wal-icon   { font-size:20px;
+
+}
+
+#nft:hover      {
+              color:blue;
+              text-decoration: underline;
+}
+
+@media only screen and (min-width:100px) { #footer     {
+             position: fixed;
+             bottom: 0.1px;
+             color: white;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             background-color: rgb(20, 25, 68);
+             width: 100%;
+             height: 50px;
+             left: -3px;
+             padding: 5px;
+            
+             padding-top: 10px;
+             text-align: center;
+            }
+          }
+
+#end         { text-align: center;
+
+}
+
+#list-2     { display: flex;
+  justify-content: space-around;
+    position:;
+    right: ;
+    bottom: ;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 0px;
+    
+
+}
+
+
+
+
+#wallet      { 
+      
+
+}
+
+
+#wallet:hover {
+  color:aqua; 
+}
+
+
+
+#statistics       { 
+
+}
+
+#statistics:hover {
+  color:aqua; 
+}
+
+
+#account       {
+
+}
+
+#account:hover {
+  color:aqua; 
+}
+
+
+
+#settings       {
+
+}
+
+#settings:hover {
+  color:aqua; 
+}
+
+
+
+body {font-family: Arial;}
+
+
+@media only screen and (min-width:100px){ .tab {
+  overflow: hidden;
+  border: none;
+  background-color: rgb(12, 12, 51);
+  color: white;
+  position:fixed;
+  margin-top: 210px;
+  width: 100%;
+  left:-3px;
+  z-index:1;
+}
+}
+
+.tab button {
+  background-color: inherit;
+  position:;
+  text-align: center;
+  right: ;
+  margin-inline:;
+  margin-right: ;
+  justify-content: center;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  padding: 10px, 10px, 10px, 10px;
+
+  
+}
+
+
+.tab button:hover {
+  background-color:none;
+  border-bottom: 3px solid aqua;
+}
+
+
+.tab button.active {
+  background-color:none;
+  border-bottom: 3px solid blue;
+  color:white;
+}
+
+
+@media only screen and (min-width:100px) { .tabcontent {
+  display:;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+  
+}
+}
+
+#London {
+
+  display: visible;
+
+}
+
+@media only screen and (min-width:100px) { #Tokyo       {
+              position: absolute;
+              display: none;
+              top:50%;
+              width: 90%;
+              right:;
+              cursor: pointer;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              
+}
+}
+

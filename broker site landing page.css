@@ -1,0 +1,2012 @@
+
+
+
+body {
+                background-color: black;
+                color:white;
+               
+                
+               
+}
+
+#body {
+    position:absolute;
+    z-index: 2;
+}
+
+
+
+
+#wrapper {
+    overflow:;
+    position: fixed;
+    top:-25px;
+    z-index: 1;
+
+}
+
+@media only screen and (min-width:100px) { #sliding-background {
+    background-image:url(OIP\ \(1\).jpg);
+    background-repeat: ;
+    height: 2050px;
+    width: 6000px;
+    animation: slide 60s linear infinite;
+    opacity: 0.5;
+    delay:10s;
+}
+}
+
+
+
+@keyframes slide {
+    0%  { transform: translate3d(0, 0, 0);
+         delay:10s;
+
+    }
+    
+    100%    {
+        transform: translate3d(-1000px, 0, 0);
+       }
+
+}
+
+
+#star{
+    background-image: url("online\ image2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: ;
+    
+
+    
+
+}
+
+#chatBotwrap{
+
+                position: fixed;
+                bottom: 20px;
+                right: 10px;
+                background-color: white;
+                width: 70px;
+                height: 70px;
+                border-radius: 70px;
+                text-align: center;
+                z-index: 4;
+}
+
+
+#chatBot{
+
+                font-size: 30px;
+                padding-top: 10px;
+                background-color:transparent;
+                border:none;
+              
+
+
+}
+
+
+
+header {
+             display: flex;
+             justify-content: space-between;
+             background-color: rgb(1, 1, 66);
+             background-image: url("OIP\ \(1\).jpg");
+             padding:10px;
+           
+             
+            }
+
+
+#one{
+
+    display: flex;
+    justify-content: ;
+
+}
+
+#two{
+
+    display: flex;
+    justify-content:;
+
+}
+
+#logopic {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+
+#name {
+
+        margin-left: 10px;
+        font-size: 30px;
+}
+
+#user{
+
+
+            width: 50px;
+            height: 50px;
+            font-size: 30px;
+            position: absolute;
+            right: 90px;
+            margin-top: 10px;
+            color: white;
+            border-radius: 5px;
+
+}
+
+
+#userimg    {
+
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+}
+#navbar{
+
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    right: 20px;
+}
+
+#line1 {
+            background-color: white;
+            width: 50px;
+            height: 3px;
+            border-radius: 5px;
+}
+
+
+#line2 {
+            background-color:  white;
+            width: 50px;
+            height: 3px;
+            position: absolute;
+            top:18px;
+            border-radius: 5px;
+}
+
+
+#line3 {
+    background-color: rgb(84, 84, 238);;
+            width: 50px;
+            height: 3px;
+            position: absolute;
+            top:35px;
+            border-radius: 5px;
+}
+
+
+#icons{
+
+        background-color: rgba(20, 20, 29, 0.89);
+        color: white;
+        padding: 20px;
+        font-size: 25px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+       display: none;
+       width: 100%;
+        position: ;
+       
+    }
+
+#home{
+
+
+
+}
+
+
+
+#home:hover{
+
+    color: rgb(84, 84, 238);
+}
+
+
+#about{
+
+
+}
+
+#about:hover{
+
+    color: rgb(84, 84, 238);
+
+}
+
+#more{
+
+
+}
+
+#more:hover{
+
+    color: rgb(84, 84, 238);
+}
+
+#faq{
+
+
+}
+
+#faq:hover{
+
+    color: rgb(84, 84, 238);
+}
+
+
+
+
+#contact{
+
+
+}
+
+#contact:hover{
+    color: rgb(84, 84, 238);
+
+}
+
+
+#h1{
+
+
+    font-size: 3em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;        
+    font-weight: bold;
+} 
+
+#h2{
+
+    color: rgb(84, 84, 238);
+}
+
+#headstm {
+
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times;        
+    text-align: left;
+}
+
+#signin{
+
+            background-color: rgb(84, 84, 238);
+            color:white;
+            width: 200px;
+            height: 70px;
+            border-radius: 10px;
+            font-size: 25px;
+            border: none;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+          
+}
+
+
+#signin:hover{
+
+    background-color: rgb(84, 84, 238);
+    color:black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+#fig1{
+        margin-left:50px;
+        
+}
+
+#fig2{
+
+        background-image: url("Picture1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        
+}
+
+#fig2text{
+
+    margin-left:50px;
+    padding: 10px;
+
+}
+
+
+#fig2head{
+
+
+        font-size: 50px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+}
+
+#strng{
+
+            color: rgb(84, 84, 238); ;
+}
+
+#fig2text{
+
+
+        font-size: 20px;
+        text-align: left;
+}
+
+
+#moreinfo{
+
+            background-color: rgb(84, 84, 238);
+            color:white;
+            width: 200px;
+            height: 70px;
+            border-radius: 10px;
+            font-size: 25px;
+            border: none;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+          
+
+
+}
+
+#moreinfo:hover{
+
+    background-color: rgb(84, 84, 238);
+    color:black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#fig3{
+
+    background-image: url("OIP\ \(2\).jpg");
+    background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        cursor: pointer;
+}
+
+#fig3head{
+
+            text-align: center;
+            padding: 10px;
+}
+
+.fig3head{
+
+           font-size: 35px;
+           font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#fig3strng{
+
+                color:rgb(84, 84, 238); ;
+}
+
+#fig3text{
+
+            font-size: 20px;
+}
+
+
+#set1{
+
+}
+
+#set2{
+   
+}
+
+#set3{
+
+   
+}
+
+
+#investmentScheme1{
+
+    border: 3px solid white;
+    padding: 20px;
+    width: 400px;
+    margin:20px;
+    opacity: 0.8;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}   
+
+#investmentScheme1:hover{
+
+        margin-top: -5px;
+        transition: 0.5s;
+        width: 420px;
+        box-shadow: 5px 5px 5px rgb(0, 217, 255);
+        opacity: 1;
+    }
+
+
+
+#investmentScheme2{
+
+    border: 3px solid white;
+    padding: 20px;
+    width: 400px;
+    margin:20px;
+    opacity: 0.8;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+
+
+#investmentScheme2:hover{
+
+    margin-top: -5px;
+    transition: 0.5s;
+    width: 420px;
+    box-shadow: 5px 5px 5px rgb(0, 217, 255);
+    opacity: 1;
+
+
+}
+
+#investmentScheme3{
+
+    border: 3px solid white;
+    padding: 20px;
+    width: 400px;
+    margin:20px;
+    opacity: 0.8;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+
+#investmentScheme3:hover{
+
+    margin-top: -5px;
+        transition: 0.5s;
+        width: 420px;
+        box-shadow: 5px 5px 5px rgb(0, 217, 255);
+        opacity: 1;
+}
+
+#investmentScheme4{
+
+    border: 3px solid white;
+    padding: 20px;
+    width: 400px;
+    margin:20px;
+    opacity: 0.8;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+
+#investmentScheme4:hover{
+
+    margin-top: -5px;
+        transition: 0.5s;
+        width: 420px;
+        box-shadow: 5px 5px 5px rgb(0, 217, 255);
+        opacity: 1;
+}
+
+
+#investmentScheme5{
+
+    border: 3px solid white;
+    padding: 20px;
+    width: 400px;
+    margin:20px;
+    opacity: 0.8;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+
+#investmentScheme5:hover{
+
+    margin-top: -5px;
+    transition: 0.5s;
+    width: 420px;
+    box-shadow: 5px 5px 5px rgb(0, 217, 255);
+    opacity: 1;
+}
+
+
+#fig3btn{
+
+    text-align: center;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family:cursive;
+    padding-top: 15px;
+    border: 2px solid white;
+
+  
+}
+
+
+#fig3btn:hover{
+
+background-color: rgb(22, 22, 179);
+color:white;
+transition: 0.2s;
+cursor: grab;
+border: none;
+}
+
+#btncover{
+    display: flex;
+    justify-content: center;
+}
+
+#plantitle{
+    font-size: 33px;
+}
+
+
+#fig4{
+
+    text-align: center;
+}
+
+#fig4head{
+
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#fig4strng{
+
+    color: rgb(84, 84, 238); ;
+}
+
+#fig4text{
+
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+#fig5{
+
+                
+}
+
+
+#fig5list{
+
+            background-color: rgba(90, 89, 89, 0.301);
+            padding: 5px;
+            list-style: none;
+           
+            display: flex;
+            justify-content: center;
+            
+           
+}
+
+#fig5list:hover{
+    cursor:cell;
+    margin-top: -5px;
+    background-color: rgba(90, 89, 89, 0.582);
+    transition: 0.5s;            
+}
+#fig5strng{
+
+                color: white;
+}
+
+#fig5listchild{
+
+            margin-left:30px;
+}
+
+#fig5head{
+
+                font-size: 26px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: rgb(84, 84, 238);
+}
+
+
+#fig5text{
+
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: justify;
+
+}
+
+
+
+
+#fig6{
+
+    background-color: rgba(0, 0, 255, 0.192);
+    border-radius: 5px;       
+                
+}
+
+#fig6img{
+
+               position: absolute;
+               width: 99%;
+               border-radius: 10px;
+               opacity: 0.5;
+                
+}
+
+#fig6wrapper{
+
+                padding: 8px;
+                margin-left: 30px;
+              
+                padding-right: 30px;
+              
+            
+}
+#fig6head{
+
+    
+    font-weight: bolder;
+   
+    text-align: center;
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+}
+
+
+
+#fig6strng{
+
+    color: rgb(84, 84, 238); ;
+    
+}
+
+#fig6text{
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+#fig7{
+
+    
+}
+#planwrapper{
+
+                text-align: center;
+                
+}
+
+#circlewrap{
+
+                display: flex;
+                justify-content:center;
+
+                
+}
+
+
+#circle{
+
+    background-image:url(download\ \(4\).jpg) ;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    border: 8px solid rgb(84, 84, 238);
+    opacity: 0.8;
+   
+}
+
+#circle:hover{
+
+                transform: rotate(360deg);
+                transition: 0.8s;
+                opacity: 1;
+                width: 130px;
+                height: 130px;
+   
+
+}
+
+#circle2{
+
+    background-image:url(businessman-analyze-sales-data-graph-260nw-1970904974.webp) ;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    border: 8px solid rgb(84, 84, 238);;
+    opacity: 0.8;
+}
+
+
+#circle2:hover{
+
+    transition: 0.8s;
+    opacity: 1;
+    width: 150px;
+    height: 150px;
+
+
+}
+
+
+#circle3{
+
+    background-image:url(new\ online.jpg) ;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    border: 8px solid rgb(84, 84, 238);;
+    opacity: 0.8;
+}
+
+
+#circle3:hover{
+
+    transition: 0.8s;
+    opacity: 1;
+    width: 130px;
+    height: 130px;
+    animation:  profit 2s alternate;
+
+
+}
+
+@keyframes profit {
+
+
+
+
+
+    0%{
+
+       transform: rotate(0deg);
+        transition: 1s;
+    }
+    
+    30%{
+
+       transform: rotate(40deg);
+        transition: 1s;
+    }
+    
+    70%{
+
+       transform: rotate(-40deg);
+        transition: 1s;
+    }
+    
+    100%{
+
+        transform: rotate(360deg);
+        transition: 1s;
+        
+    }
+    
+}
+
+#fig7text{
+
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#fig8{
+
+  background-color: rgba(71, 140, 201, 0.274);
+  padding: 8px;
+    border-radius: 10px;
+  padding-right: 30px;
+
+}
+
+#fig8head{
+
+
+font-weight: bolder;
+
+text-align: center;
+font-size: 35px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+#fig8strng{
+
+    color: rgb(84, 84, 238); 
+
+}
+
+#fig8text{
+
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+
+
+}
+
+#fig8btn1{
+
+            width: 100%;
+            font-size: 19px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            height: 60px;
+            background-color:  rgba(84, 84, 238, 0.397); 
+            color: white;
+            border: none;
+            padding: 10px;
+            text-align: left;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+          
+           
+}
+
+#qstdivemojis{
+
+    color: white;
+    padding-right:;
+    margin-right: 10-px;
+    border:  1px solid black;
+    border-radius: 100px;
+   
+   
+}
+#qstdivemoji{
+
+    transform: rotate(-90deg);
+    padding-left: 10px;
+   
+}
+
+#qstdivemoji2{
+
+    transform: rotate(-90deg);
+    padding-left: 10px;
+   
+}
+
+#qstdivemoji3{
+
+    transform: rotate(-90deg);
+    padding-left: 10px;
+   
+}
+
+#qstdivemoji4{
+
+    transform: rotate(-90deg);
+    padding-left: 10px;
+   
+}
+
+#qstdivemoji5{
+
+    transform: rotate(-90deg);
+    padding-left: 10px;
+   
+}
+
+#fig8qsttext{
+
+    display: none;
+    width: 93%;
+
+    position: relative;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.671);
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           
+}
+
+#fig8btn2{
+
+            width: 100%;
+            font-size: 19px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            height: 60px;
+            background-color:  rgba(84, 84, 238, 0.397); 
+            color: white;
+            border: none;
+            padding: 10px;
+            text-align: left;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+}
+
+
+#fig8qst{
+
+
+        text-align: center;
+}
+
+#fig8qsttext2{
+
+     display: none;
+    width: 93%;
+    
+    position: relative;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.671);
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           
+}
+
+#fig8btn3{
+
+            width: 100%;
+            font-size: 19px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            height: 60px;
+            background-color:  rgba(84, 84, 238, 0.397); 
+            color: white;
+            border: none;
+            padding: 10px;
+            text-align: left;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+}
+
+#fig8qsttext3{
+
+    display: none;
+    width: 93%;
+    
+    position: relative;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.671);
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           
+}
+
+#fig8btn4{
+
+            width: 100%;
+            font-size: 19px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            height: 60px;
+            background-color:  rgba(84, 84, 238, 0.397); 
+            color: white;
+            border: none;
+            padding: 10px;
+            text-align: left;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+}
+
+#fig8qsttext4{
+
+    display: none;
+    width: 93%;
+    
+    position: relative;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.671);
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           
+}
+
+#fig8btn5{
+
+            width: 100%;
+            font-size: 19px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            height: 60px;
+            background-color:  rgba(84, 84, 238, 0.397); 
+            color: white;
+            border: none;
+            padding: 10px;
+            text-align: left;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+}
+
+#fig8qsttext5{
+
+    display: none;
+    width: 93%;
+    
+    position: relative;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.671);
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           
+}
+
+
+#fig9{
+
+        text-align: center;
+        
+
+}
+#fig9head{
+
+                    
+            font-weight: bolder;
+            text-align: center;
+            font-size: 35px;
+           font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#fig9strng{
+
+    color: rgb(84, 84, 238); 
+
+}
+
+
+#fig9text{
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+
+
+#tstwrap{
+
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            z-index: 3;
+          
+           
+
+}
+
+
+#tst1{
+    background:linear-gradient(rgb(72, 72, 151), rgba(27, 27, 160, 0.815));
+    width: 93%;
+            height: 370px;
+           
+            padding: 20px;
+            position: absolute;
+            border-radius: 10px;
+}
+
+#tst2{
+
+    background:linear-gradient(rgb(46, 46, 179), rgba(23, 23, 94, 0.699));
+    width: 93%;
+            height: 370px;
+            padding: 20px;
+            position: absolute;
+            visibility: hidden;
+            border-radius: 10px;
+}
+
+
+#tst3{
+
+    background:linear-gradient(rgb(72, 72, 151), rgba(27, 27, 160, 0.815));
+    width: 93%;
+            height: 370px;
+            padding: 20px;
+            position: absolute;
+            visibility: hidden;
+            border-radius: 10px;
+
+}
+
+#tst4{
+
+            
+            background:linear-gradient(rgb(46, 46, 179), rgba(23, 23, 94, 0.699));
+            width: 93%;
+            height: 370px;
+            padding: 20px;
+            position: absolute;
+            visibility: hidden;
+            border-radius: 10px;
+           
+        
+
+}
+
+#tstpic{
+
+                width: 100px;
+                height: 100px;
+                border-radius: 100px;
+}
+
+#tst{
+                font-size: larger;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#ctrlbtns{
+ 
+    
+   display: flex;
+  
+   justify-content: center;
+   margin-top:400px;
+
+}
+
+#tstbtn{
+
+        width: 80px;
+        height: 5px;
+        border-radius:10px;
+        border: none;
+        margin: 5px;
+        opacity: 0.5;
+        
+}
+
+#tstbtn2{
+
+        width: 80px;
+        height: 5px;
+        border-radius:10px;
+        border: none;
+        margin: 5px;
+        opacity: 0.5;
+        
+}
+
+#tstbtn3{
+
+        width: 80px;
+        height: 5px;
+        border-radius:10px;
+        border: none;
+        margin: 5px;
+        opacity: 0.5;
+        
+}
+
+#tstbtn4{
+
+        width: 80px;
+        height: 5px;
+        border-radius:10px;
+        border: none;
+        margin: 5px;
+        opacity: 0.5;
+        
+        
+}
+
+#prev{
+
+            position: absolute;
+            left:2px;
+}
+
+#nxt{
+    position: absolute;
+    right: 2px;
+
+}
+
+
+
+#fig10{
+
+
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+
+    
+
+}
+
+#imgwrap{
+
+    position: absolute ;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+    opacity: 0.4;
+    display: flex;
+
+}
+#bckimg{
+
+    width: 100%;
+    height: 500px;
+
+
+   
+}
+
+#fig10wrap{
+
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+  
+ 
+
+    
+}
+#fig10head{
+
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;      
+        font-weight: bolder;
+        text-align: center;
+}
+
+
+#fig10strng{
+
+color: rgb(84, 84, 238); 
+
+}
+#fig10text{
+
+    text-align: center;
+}
+
+#person1{
+
+    margin: 10px;  
+    background-color:rgba(16, 15, 102, 0.637);
+    color: white; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    border-radius: 10px;
+    border: none;
+}
+
+#person1:hover{
+
+            margin-top: -5px;
+            background-color: rgb(84, 84, 238);
+            box-shadow: 5px 5px 8px 8px rgb(19, 19, 199);
+            transition: 0.5s;
+
+        }
+
+#person2{
+
+    margin: 10px;  
+    background-color:rgba(16, 15, 102, 0.637);
+    color: white; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    border-radius: 10px;
+    border: none;
+}
+
+#person2:hover{
+
+            margin-top: -5px;
+            background-color: rgb(84, 84, 238);
+            box-shadow: 5px 5px 8px 8px rgb(19, 19, 199);
+            transition: 0.5s;
+
+        }
+
+#person3{
+
+    margin: 10px;  
+    background-color:rgba(16, 15, 102, 0.637);
+    color: white; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    border-radius: 10px;
+    border: none;
+}
+
+#person3:hover{
+
+            margin-top: -5px;
+            background-color: rgb(84, 84, 238);
+            box-shadow: 5px 5px 8px 8px rgb(19, 19, 199);
+            transition: 0.5s;
+
+        }
+#pic1{
+
+            width:320px;
+            border-radius: 50px;
+            padding: 10px;
+}
+
+#btnpass{
+
+   background-color: rgba(0, 0, 0, 0.548);
+
+            
+}
+
+#pesnameh{
+
+    font-size: 20px;
+}
+
+#pesname{
+
+    font-weight: bolder;
+}
+
+
+
+#fig11{
+
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.589);
+    padding: 20px;
+    
+
+}
+
+#fig11wrap{
+
+  
+}
+#fig11head{
+
+                
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;   
+    text-align: center;
+}
+
+
+#fig11strng{
+
+color: rgb(84, 84, 238); 
+
+}
+
+
+#fig11text{
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+
+#Translistwrap{
+
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            
+
+}
+
+
+#TransBtn1{
+
+                background-color: blue;
+                padding: 20px;
+                border-radius: 10px;
+                margin:10px;
+                cursor: pointer;
+                border: 2px solid;
+                font-family:'Times New Roman', Times, serif;
+                font-size: 18px;
+}               
+
+#TransBtn2{
+
+               
+                padding: 20px;
+                border-radius: 10px;
+                margin:10px;
+                cursor: pointer;
+                border: 2px solid;
+                font-family:'Times New Roman', Times, serif;
+                font-size: 18px;
+}
+
+
+#transactionTabContent{
+
+   
+    display: flex;
+    justify-content: center;
+    visibility: ;
+   
+    
+   
+       
+       
+}
+
+#deposit{
+
+    text-align: left;
+    font-size: larger;
+    border: 3px outset blue;
+    border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+   
+
+}
+
+
+#TitleBlock{
+
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+
+}
+
+
+#Titlehead1{
+    background-color: rgba(0, 0, 255, 0.178);
+    
+      
+       
+        
+}
+
+#Titlehead2{
+
+       background-color: rgba(222, 222, 231, 0.11); 
+       
+        
+}
+
+
+#withdrawWrap{
+
+   
+    display: flex;
+    justify-content: center;
+    visibility:hidden ;
+    position: absolute;
+
+    
+    
+   
+       
+       
+}
+
+#withdraw{
+
+    text-align: left;
+    font-size: larger;
+    border: 3px outset blue;
+    border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+
+#withTab{
+
+
+}
+
+#fig12{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    
+}
+
+
+
+
+#fig13{
+
+    text-align: center;
+    position: relative;
+    
+
+}
+
+#fig13wrap{
+
+          
+}
+#fig13head{
+
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;        
+        font-weight: bolder;
+        text-align: center;
+}
+
+
+#fig13strng{
+
+color: rgb(84, 84, 238); 
+
+}
+
+
+#fig13text{
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#lineColor{
+
+    background-color:rgb(84, 84, 238);
+    opacity: 0.5;
+}
+
+#investortable{
+
+  
+color:white;
+text-align: center;
+position: relative;
+
+
+}
+
+#inwrap{
+
+  
+}
+
+
+#invest1{
+    width: 450px;
+    height: auto;
+    background-color: rgba(0, 0, 255, 0.562);
+    color:white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px white;
+    margin: 15px;
+    font-size: 20px;
+    position: relative;
+    
+
+}
+
+#invest1:hover{
+
+            margin-top: -3px;
+            transition: 0.5s;
+            
+
+}
+
+#invest2{
+    width: 450px;
+    height: auto;
+    background-color: rgba(0, 0, 255, 0.562);
+    color:white;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px white;
+    margin: 15px;
+    font-size: 20px;
+    
+
+}
+
+#invest2:hover{
+
+            margin-top: -5px;
+            transition: 0.5s;
+
+}
+
+
+#investHead{
+
+
+}
+
+#investflex{
+
+        display: flex;
+        justify-content: space-between;
+}
+
+
+#investPst1{
+
+
+opacity: 0.5;
+
+
+}
+
+#investText{
+
+    text-align: left;
+
+
+}
+
+
+
+#fig14{
+
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+
+#underline{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+#theline{
+
+        background-color: blue;
+        width: 70px;
+        height: 5px;
+        border-radius: 10px;
+        margin-top: -20px;
+}
+
+#theline:hover{
+
+        background-color: rgba(0, 0, 255, 0.541);
+        width: 90px;
+        height: 5px;
+        border-radius: 10px;
+        margin-top: -20px;
+        transition: 0.5s;
+}
+
+#fig14{
+
+    background-image:url(R.jpg);
+    
+    
+          
+}
+
+#fig14head{
+
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;        
+        font-weight: bolder;
+        text-align: center;
+}
+
+
+#fig14strng{
+
+color: rgb(84, 84, 238); 
+
+}
+
+
+#fig14text{
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+#fig15wrap{
+
+    
+          
+}
+#fig15head{
+
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;       
+        font-weight: bolder;
+        text-align: center;
+}
+
+
+#fig15strng{
+
+color: rgb(84, 84, 238); 
+
+}
+
+
+#fig15text{
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#Jbtnwrap{
+
+
+}
+
+#Jbtn{
+    
+
+    background-color: rgba(0, 0, 255, 0.616);
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#Jbtn:hover{
+
+    width: 110px;
+    transition: 0.5s;
+
+}
+#paymentwrap{
+
+   width: 100%;
+}
+
+#paymentsmthd{
+
+    
+
+}
+
+#paymentlist{
+
+    
+    list-style: none;
+   
+
+}
+
+#mentlist1{
+
+
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+#mentlist1:hover{
+
+
+    border: 2px dashed blue;
+    padding: 25px;
+    transition: 0.5s;
+   
+}
+
+
+#payment1{
+
+            display: flex;
+            justify-content: space-evenly;
+           
+}
+
+#payment2{
+
+            display: flex;
+            justify-content: space-evenly;
+}
+
+#payment3{
+
+            display: flex;
+            justify-content: space-evenly;
+}
+
+#payment4{
+
+            display: flex;
+            justify-content: space-evenly;
+}
+
+
+
+#fig16wrap{
+
+    
+          
+}
+#fig16head{
+
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;         
+        font-weight: bolder;
+        text-align: center;
+}
+
+
+#fig16strng{
+
+color: rgb(84, 84, 238); 
+
+}
+
+
+#fig16text{
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+
+#newswrap{
+text-align: center;
+    
+}
+
+#newsbtn{
+
+   text-align: center;
+   width: 90%;
+   height: auto;
+   padding: 20px;
+   border: 2px solid blue;
+   font-size: 20px;
+   background-color: rgba(0, 0, 255, 0.281);
+   color: white;
+   border-radius: 10px;
+
+}
+
+#imgwrap{
+
+   
+    
+}
+
+#newimg{
+
+    width:80%;
+    border-radius: 10px;
+    
+    
+}
+
+#newstext{
+
+    text-align: justify;
+}
+
+#readmore{
+
+    background-color: rgb(28, 28, 156);
+    color: rgba(255, 255, 255, 0.473);
+    border-radius: 5px;
+    padding: 20px;
+    width: 120px;
+    
+
+}
+
+#readmore:hover{
+
+    color: white;
+    transition: 0.2s;
+}
+
+
+#footer{
+
+ text-align: center;
+}
+
+
+#upperbottom{
+
+        background-image: url(online.webp);
+        background-repeat: ;
+        background-size: cover;
+}
+
+#bottomimg{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    padding: 20px;
+
+}
+
+#btmtext{
+
+    font-size: 20px;
+    word-spacing: 20px;
+
+}
+
+#bottom{
+
+background-color: rgba(0, 0, 0, 0.582);
+padding: 30px;
+}
+
