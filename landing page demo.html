@@ -1,0 +1,44 @@
+<html>
+
+<link rel="stylesheet" href="landing page demo.css">
+
+<aside id="demoWrap">
+
+        <img class="demopic" id="demoImg" src="bitcoin real pic.png">
+        <img  class="demopic" id="demoImg2" src="ace wallet logo.jpg">
+
+
+</aside>
+
+<script> 
+
+                var  demoImg = document.getElementById("demoImg");
+                var  demoImg2 = document.getElementById("demoImg2");
+
+             function demoLoad(){
+  
+                  var demo = document.getElementById("demoImg");
+               
+                  demo.classList.add("demoImg");
+
+                  demo.style.transition = "2s"
+                  
+                setTimeout(()=>{
+
+                    demoImg.innerHTML = document.location = "broker site landing page.html";
+                  
+                }, 2000)
+
+                }
+
+                 
+            
+              
+
+               window.onload = demoLoad();
+
+
+
+</script> 
+
+</html>

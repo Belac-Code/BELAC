@@ -1,0 +1,38 @@
+
+
+<html>
+
+
+            <input id="input" type="text" value="300.00" readonly>
+            <button id="btn" onclick="myFunction()"> Hide </button>
+
+
+            <style>
+
+            </style>
+
+
+
+<script>
+
+                function myFunction(){
+
+                            var input = document.getElementById("input");
+                            var button = document.getElementById("btn");
+
+                            if(input.value==="300.00"){
+
+                                input.value = "****";
+                                button.innerHTML = "Show";
+                            }
+
+                            else{
+
+                                input.value="300.00";
+                                button.innerHTML = "Hide"
+                            }
+
+
+                }
+</script>
+</html>

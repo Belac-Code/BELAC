@@ -1,0 +1,387 @@
+     <h2 class="section-title"><span class="font-weight-normal">Investment</span> <b class="base--color">Plans</b></h2>
+                    <p>To make a solid investment, you have to know where you are investing. Find a plan which is best for you.</p>
+
+                    <h4 class="package-card__title base--color mb-2">Plan One</h4>
+
+            <ul class="package-card__features mt-4">
+                <li>Return                    20.00%
+                </li>
+
+                <li>
+                    Every 12 Hour
+                </li>
+                <li>For                         Lifetime                                    </li>
+                <li>
+                                            Lifetime Earning                                    </li>
+                                            </ul>
+            <div class="package-card__range mt-5 base--color">
+                                    $50.00 -
+                    $499.00
+                            </div>
+            <a> 
+
+
+            Our goal is to provide our investors with a reliable source of high income, while minimizing any possible risks and offering a high-quality service.
+
+
+            Our company conducts absolutely legal activities in the legal field. We are certified to operate investment business, we are legal and safe.
+
+            We are trusted by a huge number of people. We are working hard constantly to improve the level of our security system and minimize possible risks.</p>
+
+            Quick Withdrawal</h4>
+                </div>
+                <p>Our all retreats are treated spontaneously once requested. There are high maximum limits. The minimum withdrawal amount is only $50.</p>
+            </div>
+
+            We are offering a certain level of referral income through our referral program. you can increase your income by simply refer a few people.</p>
+            </div><!-- choose-card end -->
+
+            <p>We provide 24/7 customer support through e-mail and telegram. Our support representatives are periodically available to elucidate any difficulty.</p>
+
+            <p>We are using a dedicated server for the website which allows us exclusive use of the resources of the entire server.</p>
+
+            <p>Comodo Essential-SSL Security encryption confirms that the presented content is genuine and legitimate.</p>
+
+            <p>We are using one of the most experienced, professional, and trusted DDoS Protection and mitigation provider.</p>
+
+            <h2 class="section-title"><span class="font-weight-normal">Profit</span> <b class="base--color">Calculator</b></h2>
+            <p>You must know the calculation before investing in any plan, so you never make mistakes. Check the calculation and you will get as our calculator says.</p>
+        </div>
+    </div>
+</div>
+
+
+<h2 class="section-title"><span class="font-weight-normal">How</span> <b class="base--color">Digital Firm Ltd</b> <span class="font-weight-normal">Works</span></h2>
+<p>Get involved in our tremendous platform and Invest. We will utilize your money and give you profit in your wallet automatically.</p>
+
+
+<p>We answer some of your Frequently Asked Questions regarding our platform. If you have a query that is not answered here, Please contact us.</p>
+
+
+<span>When can I deposit/withdraw from my Investment account?</span>
+
+<div class="card-body">Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform.
+
+    Deposit and withdrawal are available for at any time. Be sure, that your funds are not used in any ongoing trade before the withdrawal. The available amount is shown in your dashboard on the main page of Investing platform.</div>
+
+    <span>How do I check my account balance?</span>
+    <div class="card-body">You can see this anytime on your accounts dashboard. You can see this anytime on your accounts dashboard.
+
+        <span>I forgot my password, what should I do?</span>
+    </button>
+  </h2>
+</div>
+
+<div id="collapse2" class="collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+  <div class="card-body">Visit the password reset page, type in your email address and click the `Reset` button. Visit the password reset page, type in your email address and click the `Reset` button.</div>
+</div>
+</div>
+
+<span>How will I know that the withdrawal has been successful?</span>
+</button>
+</h2>
+</div>
+
+<div id="collapse3" class="collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+<div class="card-body">You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you. You will get an automatic notification once we send the funds and you can always check your transactions or account balance. Your chosen payment system dictates how long it will take for the funds to reach you.</div>
+
+
+<span>How much can I withdraw?</span>
+</button>
+</h2>
+</div>
+
+<div id="collapse4" class="collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+<div class="card-body">You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions. You can withdraw the full amount of your account balance minus the funds that are used currently for supporting opened positions.</div>
+</div>
+
+
+<p>We are doing really good at this market and here are the words we loved to get from a few of our users.</p>
+
+
+<p>Legit....and legit. Although the payment was processed manually, I have received my first payment within a very short time., I think nice for invest at this site.</p>
+
+<p>I have invested with this platform and gotten my money in my account. This is legit and safe. Great doing business with them.</p>
+
+testimony 
+
+
+<p>I have invested with this platform and gotten my money in my account. This is legit and safe. Great doing business with them.</p>
+
+
+
+<p>We have a great team including developers, designers, and Traders. The Team always working hard to give you the maximum profit.</p
+
+    Transaction</b></h2>
+          <p>Here is the log of the most recent transactions including withdraw and deposit made by our users.
+
+
+
+
+            <div class="table-responsive--sm">
+                <table class="table style--two">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Date</th>
+                      <th>Amount</th>
+                      <th>Gateway</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                                      <tr>
+                                            <td data-label="Name">
+                            Saleh Boss
+                        </td>
+                        <td data-label="Date">2024-10-10</td>
+                        <td data-label="Amount">50 USD</td>
+                        <td data-label="Gateway">Manual Payment USDT TRC20</td>
+                                        </tr>
+                                      <tr>
+                                            <td data-label="Name">
+                            Jessica Allen
+                        </td>
+                        <td data-label="Date">2024-09-09</td>
+                        <td data-label="Amount">1500 USD</td>
+                        <td data-label="Gateway">Manual Payment Bitcoin</td>
+                                        </tr>
+                                      <tr>
+                                            <td data-label="Name">
+                            Abdulla Alsaadi
+                        </td>
+                        <td data-label="Date">2024-09-06</td>
+                        <td data-label="Amount">457.78 USD</td>
+                        <td data-label="Gateway">Manual Payment USDT TRC20</td>
+                                        </tr>
+                                      <tr>
+                                            <td data-label="Name">
+                            Abdulla Alsaadi
+                        </td>
+                        <td data-label="Date">2024-09-05</td>
+                        <td data-label="Amount">52 USD</td>
+                        <td data-label="Gateway">Manual Payment USDT TRC20</td>
+                                        </tr>
+                                      <tr>
+                                            <td data-label="Name">
+                            Mohamed Allouch
+                        </td>
+                        <td data-label="Date">2024-08-03</td>
+                        <td data-label="Amount">1050 USD</td>
+                        <td data-label="Gateway">Manual Payment Ethereum ERC 20</td>
+                                        </tr>
+                                      <tr>
+                                            <td data-label="Name">
+                            Housseine Mohamedhen
+                        </td>
+                        <td data-label="Date">2024-08-03</td>
+                        <td data-label="Amount">500 USD</td>
+                        <td data-label="Gateway">Manual Payment Bitcoin</td>
+                                        </tr>
+                                      <tr>
+                                            <td data-label="Name">
+                            Housseine Mohamedhen
+                        </td>
+                        <td data-label="Date">2024-08-02</td>
+                        <td data-label="Amount">500 USD</td>
+                        <td data-label="Gateway">Manual Payment Bitcoin</td>
+                                        </tr>
+                                      <tr>
+                                            <td data-label="Name">
+                            Housseine Mohamedhen
+                        </td>
+                        <td data-label="Date">2024-08-01</td>
+                        <td data-label="Amount">500 USD</td>
+                        <td data-label="Gateway">Manual Payment Bitcoin</td>
+                                        </tr>
+                                      <tr>
+                                            <td data-label="Name">
+                            Angel Sergio
+                        </td>
+                        <td data-label="Date">2024-07-03</td>
+                        <td data-label="Amount">500 USD</td>
+                        <td data-label="Gateway">Manual Payment Bitcoin</td>
+                                        </tr>
+                                      <tr>
+                                            <td data-label="Name">
+                            James Owen
+                        </td>
+                        <td data-label="Date">2024-07-03</td>
+                        <td data-label="Amount">500 USD</td>
+                        <td data-label="Gateway">Manual Payment Bitcoin</td>
+                                        </tr>
+                                    </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="withdraw" role="tabpanel" aria-labelledby="withdraw-tab">
+              <div class="table-responsive--md">
+                <table class="table style--two">
+                  <thead>
+                    <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">Amount</th>
+                      <th scope="col">Method</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                                       <tr>
+                                              <td data-label="Name">anisa fahd</td>
+                          <td data-label="Date">2024-10-31</td>
+                          <td data-label="Amount">11720 USD</td>
+                          <td data-label="Method">WITHDRAW VIA USDT</td>
+                                        </tr>
+                                      <tr>
+                                              <td data-label="Name">fahad mahra</td>
+                          <td data-label="Date">2024-10-16</td>
+                          <td data-label="Amount">11720 USD</td>
+                          <td data-label="Method">WITHDRAW VIA USDT</td>
+                                        </tr>
+                                      <tr>
+                                              <td data-label="Name">mohamed essam</td>
+                          <td data-label="Date">2024-10-14</td>
+                          <td data-label="Amount">71 USD</td>
+                          <td data-label="Method">WITHDRAW VIA USDT</td>
+                                        </tr>
+                                      <tr>
+                                              <td data-label="Name">Emmanuel Mdaka</td>
+                          <td data-label="Date">2024-09-12</td>
+                          <td data-label="Amount">11000 USD</td>
+                          <td data-label="Method">WITHDRAW VIA USDT</td>
+                                        </tr>
+                                      <tr>
+                                              <td data-label="Name">fahad mahra</td>
+                          <td data-label="Date">2024-09-11</td>
+                          <td data-label="Amount">11720 USD</td>
+                          <td data-label="Method">WITHDRAW VIA USDT</td>
+                                        </tr>
+                                      <tr>
+                                              <td data-label="Name">mahra fahad</td>
+                          <td data-label="Date">2024-09-11</td>
+                          <td data-label="Amount">11720 USD</td>
+                          <td data-label="Method">WITHDRAW VIA USDT</td>
+                                        </tr>
+                                      <tr>
+                                              <td data-label="Name">Khadija Ahmed</td>
+                          <td data-label="Date">2024-08-19</td>
+                          <td data-label="Amount">15000 USD</td>
+                          <td data-label="Method">WITHDRAW VIA USDT</td>
+                                        </tr>
+                                      <tr>
+                                              <td data-label="Name">Isabella Franz</td>
+                          <td data-label="Date">2024-08-02</td>
+                          <td data-label="Amount">30000 USD</td>
+                          <td data-label="Method">WITHDRAW VIA USDT</td>
+                                        </tr>
+                                      <tr>
+                                              <td data-label="Name">saif ullah</td>
+                          <td data-label="Date">2024-07-09</td>
+                          <td data-label="Amount">2000 USD</td>
+                          <td data-label="Method">WITHDRAW VIA USDT</td>
+                                        </tr>
+                                      <tr>
+                                              <td data-label="Name">Laura Richardson</td>
+                          <td data-label="Date">2024-06-18</td>
+                          <td data-label="Amount">15000 USD</td>
+                          <td data-label="Method">WITHDRAW VIA USDT</td>
+                                        </tr>
+                                    </tbody>
+                </table>
+              </div>
+            </div>
+          </div><!-- tab-content end -->
+        </div>
+      </div>
+    </div>
+  </section>
+                      <section class="pt-120 pb-120 border-top-1">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-6 text-center">
+                  <div class="section-header">
+                      <h2 class="section-title"><span class="font-weight-normal">Our Top</span> <b class="base--color">Investors</b></h2>
+                      <p>Here are the investor leaders who have made the maximum investment with our system.</p>
+                  </div>
+              </div>
+          </div><!-- row end -->
+          <div class="row justify-content-center gy-4">
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                      <div class="investor-card border-radius--5">
+                          <span class="investor-card__number">1st</span>
+                          <h5 class="investor-card__name">alfred townsend</h5>
+                          <h6 class="name">princebubu</h6>
+                          <span class="amount f-size-14">Investment - $40,499.00</span>
+                      </div><!-- investor-card end -->
+                  </div>
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                      <div class="investor-card border-radius--5">
+                          <span class="investor-card__number">2nd</span>
+                          <h5 class="investor-card__name">England Kalais</h5>
+                          <h6 class="name">ekalais</h6>
+                          <span class="amount f-size-14">Investment - $40,050.00</span>
+                      </div><!-- investor-card end -->
+                  </div>
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                      <div class="investor-card border-radius--5">
+                          <span class="investor-card__number">3rd</span>
+                          <h5 class="investor-card__name">Joshua Emmanuel Nyoni</h5>
+                          <h6 class="name">joshuanyoni1808</h6>
+                          <span class="amount f-size-14">Investment - $36,888.75</span>
+                      </div><!-- investor-card end -->
+                  </div>
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                      <div class="investor-card border-radius--5">
+                          <span class="investor-card__number">4th</span>
+                          <h5 class="investor-card__name">M Brown</h5>
+                          <h6 class="name">iammbrown1</h6>
+                          <span class="amount f-size-14">Investment - $30,000.00</span>
+                      </div><!-- investor-card end -->
+                  </div>
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                      <div class="investor-card border-radius--5">
+                          <span class="investor-card__number">5th</span>
+                          <h5 class="investor-card__name">Moses Brown</h5>
+                          <h6 class="name">mosesbrown</h6>
+                          <span class="amount f-size-14">Investment - $20,500.00</span>
+                      </div><!-- investor-card end -->
+                  </div>
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                      <div class="investor-card border-radius--5">
+                          <span class="investor-card__number">6th</span>
+                          <h5 class="investor-card__name">Zeynep Karan</h5>
+                          <h6 class="name">karanzeynep</h6>
+                          <span class="amount f-size-14">Investment - $15,000.00</span>
+                      </div><!-- investor-card end -->
+                  </div>
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                      <div class="investor-card border-radius--5">
+                          <span class="investor-card__number">7th</span>
+                          <h5 class="investor-card__name">Mohamed Allouch</h5>
+                          <h6 class="name">mohamedallouch</h6>
+                          <span class="amount f-size-14">Investment - $12,023.00</span>
+                      </div><!-- investor-card end -->
+                  </div>
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                      <div class="investor-card border-radius--5">
+                          <span class="investor-card__number">8th</span>
+                          <h5 class="investor-card__name">Housseine Mohamedhen</h5>
+                          <h6 class="name">housseinesidi</h6>
+                          <span class="amount f-size-14">Investment - $5,625.00</span>
+                      </div><!-- investor-card end -->
+                  </div>
+                      </div>
+      </div>
+  </section>class="blog-card__title mb-2"><a href="https://digitalfirmltd.com/blog/why-its-important-to-invest-in-digital-firm-limited-market-potential/424">Why It's Important to Invest in Digital Firm Limited. (Market Potential)</a></h5>
+
+  <p>The
+cryptocurrency market is experiencing unprecedented growth and adoption, with
+digital assets becoming increasingly mainstream. As more individuals,
+institutions, and businesses...</p>
+  <a href="https://digitalfirmltd.com/blog/why-its-important-to-invest-in-digital-firm-limited-market-potential/424" class="btn--base btn-md mt-4">Read More</a>
+                      <section class="pb-120">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-xl-8">
+                  <div class="cta-wrapper bg_img border-radius--10 text-center" data-background="https://digitalfirmltd.com/assets/images/frontend/cta/631c9f3d446e11662820157.jpg" style="background-image: url(&quot;https://digitalfirmltd.com/assets/images/frontend/cta/631c9f3d446e11662820157.jpg&quot;);">
+                      <h2 class="title mb-3">Get Started Today With Us</h2>
+                      <p>This is a Revolutionary Money Making Platform! Invest for Future in Stable Platform and Make Fast Money. Not only we guarantee the fastest and the most exciting returns on your investments, but we also guarantee the security of your investment.</p>
