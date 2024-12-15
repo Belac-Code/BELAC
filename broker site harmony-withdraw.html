@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.broker site send</title>
+        <link rel="stylesheet" href="broker site bitcoin-withdraw.css">
+    </head>
+
+    <header class="head">
+        <img id="img-btc" src="logo one.png">
+        <div id="price"> Withdraw Harmony</div>
+        <p> <price id="wallet-balance"> 0 </price> ONE </p>
+    </header>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   
+    
+   
+   <aside id="btns"> 
+   
+       <div id="ToBank" onclick="ToBank()"> To Local Bank </div>
+   
+       <div id="P2P" onclick="P2P()"> Wallet to wallet (P2P) </div>
+   </aside>
+   
+    <section> 
+   
+    <span id="section">
+       
+       <p id="demo" onclick="copyText()"> copy wallet address </p>
+       <input id="input"  type="text" placeholder="My Wallet address">
+       <br>
+       <br>
+       <input id="input"  type="text" placeholder="Bank Name" style="text-transform:capitalize;">
+       <br>
+       <br>
+       <input id="input"  type="text" placeholder="Account Name" style="text-transform:capitalize;">
+       <br>
+       <br>
+       <input id="input"  type="tel" placeholder="Account Number">
+       <br>
+       <br>
+       <input id="input"  type="number" placeholder="Enter Amount">
+       <select id="select">
+           <option>USD</option> 
+           <option>ZAR</option> 
+           <option>EURO</option> 
+           <option>KWD</option> 
+           <option>NGN</option> 
+       </select>  
+       
+       <br>
+       <br>
+       <input type="checkbox">
+       <label id="label" for="text"> Confirm Bank Details</label> 
+       <br>
+       <br> 
+       <div id="PayBtn"> 
+       <button id="button" onclick="document.location='broker site insufficent amout.html'"> Pay </button>
+       </div>
+   </span>
+   
+   
+    <span id="section2">
+       
+       <p id="demo" onclick="copyText()"> copy wallet address </p>
+   
+       FROM:
+       <br>
+       <input id="input"  type="text" placeholder="Senders Wallet Address" style="text-transform:capitalize;">
+       <br>
+       <br>
+       TO:
+       <br>
+       <input id="input"  type="text" placeholder="Receivers Wallet Address" style="text-transform:capitalize;">
+       <br>
+       <br>
+       <input id="input"  type="number" placeholder="Enter Amount">
+       <select id="select">
+           <option>USD</option> 
+           <option>ZAR</option> 
+           <option>EURO</option> 
+           <option>KWD</option> 
+           <option>NGN</option> 
+       </select>  
+       
+       <br>
+       <br>
+       <input type="checkbox">
+       <label id="label" for="text"> Confirm wallet Details</label> 
+       <br>
+       <br> 
+   
+       <div id="PayBtn"> 
+       <button id="button" onclick="document.location='broker site insufficent amout.html'"> Pay </button>
+   </div>
+   </span>
+     
+   </section>
+   
+   <script>
+       
+       function copyText() {  navigator.clipboard.writeText
+   
+           ("bc1qn38p54wksq2jj2fxsf6que6kj3ca08cldv7s47")
+   
+          
+       }
+   
+       
+       function ToBank(){
+   
+   // BUTTONS WITH BORDER BOTTOM -----------------------------------------------------------
+   var ToBank = document.getElementById("ToBank");
+   var P2P = document.getElementById("P2P");
+   
+    //DECALARING TOBANKTEXT = SECTION HTML TAG-----------------------------------------------------
+   // DECALARING P2PTEXT = SECTION2 HTML TAG -------------------------------------------------------
+   
+   var ToBankText = document.getElementById("section");
+   var P2PText = document.getElementById("section2");
+   
+   // ADDING STYLE TO IT ------------------------------------------------------------------ 
+   P2P.style.borderBottom = "transparent";
+   ToBank.style.borderBottom = "2px solid blue";
+   
+   
+   P2PText.style.visibility = "hidden";
+   P2PText.style.position = "absolute";
+   
+   
+   ToBankText.style.visibility = "visible";
+   ToBankText.style.position = "relative";
+   
+   
+   }
+   
+   
+   function P2P(){
+   
+   var ToBank = document.getElementById("ToBank");
+   var P2P = document.getElementById("P2P");
+   
+   var ToBankText = document.getElementById("section");
+   var P2PText = document.getElementById("section2");
+   
+   
+   P2P.style.borderBottom = "2px solid blue";
+   ToBank.style.borderBottom = "transparent";
+   
+   
+   
+   ToBankText.style.visibility = "hidden";
+   ToBankText.style.position = "absolute";
+   
+   P2PText.style.visibility = "visible";
+   P2PText.style.position = "relative";
+   
+   
+   
+   }
+   
+   function load(){
+   
+   var P2PText = document.getElementById("section2");
+   
+   P2PText.style.visibility = " hidden";
+   
+   P2PText.style.position = "absolute";
+   
+   // position: relative;
+   //   top: -40px;
+   // padding-left: 30px;
+   
+   
+   }
+   
+   window.onload = load();
+   
+   
+   
+   
+   
+   function load2(){
+   
+   
+   var currentBal = document.getElementById("wallet-balance");
+   var savedBal = localStorage.getItem("SavedHARCoinAmt");
+   
+   
+   
+   
+   if(savedBal){
+   
+   currentBal.innerText = savedBal;
+   
+   
+   }
+   
+   
+   }
+    window.onload = load2();
+   </script>
+   
+   
+   </html>

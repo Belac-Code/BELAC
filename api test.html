@@ -1,0 +1,34 @@
+
+
+<html> 
+
+<h1> Bitcoin price </h1>
+<hr>
+<br>
+<div id="demo"> 
+
+
+</div>
+
+<script> 
+
+var display = document.getElementById("demo");
+
+
+function price(){ 
+
+fetch('https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT')
+  .then(response => response.json())
+  .then(data => {
+    console.log('Bitcoin price on Binance:', data.price);
+    display.innerHTML = data.price;
+  })
+  .catch(error => console.error('Error fetching data:', error));
+}
+
+window.onload = price();
+
+  </script> 
+
+
+  </html>

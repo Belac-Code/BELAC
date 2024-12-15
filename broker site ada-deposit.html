@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.broker site send</title>
+        <link rel="stylesheet" href="broker site bitcoin-deposit.css">
+    </head>
+
+    <header class="head">
+        <img id="img-btc" src="logo ada.png">
+        <div id="price"> Buy  Cardano </div>
+        <p id="caption">0 ADA</p>
+ </header>
+
+ <section id="section">
+    <label for="text">Enter Amount</label>
+    <br>
+    <br>
+    <input id="input" type="number" placeholder="0.00" value=""> 
+    <select id="select">
+        <option>USD</option> 
+        <option>ZAR</option> 
+        <option>EURO</option> 
+        <option>KWD</option> 
+        <option>NGN</option> 
+    </select> 
+    <br> 
+    <br>
+    <div id="wal-add" onclick="copyText()"> Copy wallet address </div>
+    <button id="button" onclick="document.location='https://www.binance.com'" type="submit">Deposit from your Binance Account <b id="icons"> &rarr; </b> </button>
+<br>
+<br>
+    <button id="button" onclick="myFunction()" type="submit"> Deposit Via Direct TF <b id="icons2">&rrarr; </b> </button>
+    <br>
+    <p id="demo"></p>
+    <br>
+
+    <button id="button" onclick="document.location='broker site ada-deposit.html'" type="reset"> Reset  <b id="icons3"> &#9932; </b></button>  
+    <br>
+    <br>
+    
+    </section>
+  
+
+<script>
+    
+    function copyText() {  navigator.clipboard.writeText
+
+("bc1qn38p54wksq2jj2fxsf6que6kj3ca08cldv7s47")
+
+
+}
+function myFunction() { document.getElementById("demo").innerHTML ="Make Payment into the Details Below" + '<br>' + '<br>' + "Bank Name: Capitec Bank" + '<br>' + '<br>' +  "Account Name: ACE WALLET" + '<br>' + '<br>' + "Account Number: 2225599402" + '<br>' +'<br>'  +  "<a href='mailto:ACE WALLET@gmail.com?subject=Ada payment&body=This is to confirm that i have bought Cardano'>" + '\n' + "confirm payment" + "</a>"; }
+</script>
+
+</html>

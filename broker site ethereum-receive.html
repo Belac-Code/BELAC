@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="broker site bitcoin-receive.css">
+<style>
+
+</style>
+</head>
+<body>
+
+    <header class="head">
+        <h1 id="current-bal">
+            Receive Ethereum ETH
+        </h1>
+    
+        
+    </header>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+    <section class="qrcCode">
+        <img id="qrc-code" src="qrc eth.png">
+    </section>
+<br>
+<br>
+    <main id="warning">
+        <div id="sub-warning">Send only Ethereum (ETH) to this address <br> Sending any other coin to this wallet address may result in permanent loss.</div>
+    </main>
+    <br>
+    <br>
+    <footer id="down-btn">
+        
+        <button id="copy" onclick="copyText()">Copy</button>
+        <br>
+        <br>
+   
+
+    </footer>
+
+    <aside id="anime">
+        <p id="demo"></p>
+    </aside>
+    
+</body>
+<script>
+    
+    function copyText() {  navigator.clipboard.writeText
+
+        ("bc1qn38p54wksq2jj2fxsf6que6kj3ca08cldv7s47")
+
+        document.getElementById("demo").innerHTML = "copied" + '<br>' + "bc1qn38p54wksq2jj2fxsf6que6kj3ca08cldv7s47";
+
+    }
+</script>
+
+</html> 
+
+

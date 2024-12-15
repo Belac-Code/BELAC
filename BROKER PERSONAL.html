@@ -1,0 +1,334 @@
+<html>
+
+
+	
+<input type="file" id="fileInput" accept="image/*, video/*" style="display: none;">
+
+<br>
+<br>
+ 
+	<section id="profile"> 
+<div id="preview">
+
+</div>
+
+<div id="newB"> 
+<button onclick="openFileUploader()" id="btn1">&#128247; </button>
+</div>
+	</section>
+
+<article id="userDetails">
+<h1> PERSONAL </h1>
+<hr>
+
+<div id="userNameTitle">Name:</div> <b id="userName"> </b>
+
+<br>
+
+<br>
+
+<div userPhoneTitle>Phone No:</div> <b id="userTel"> </b>
+
+<br>
+
+<br>
+
+<div userEmailTitle>Email:</div> <b id="userEmail"> </b>
+
+<br>
+
+<br>
+
+<div userPasswordTitle>Password:</div> <b id="userPassword"> </b> 
+
+<br>
+
+<br>
+
+<div userInvestmentLvlTitle>Investment LVL:</div> <b id="userLVL"> 1 </b>
+
+<br>
+
+<h1>OTHERS</h1>
+<hr>
+<h3>FAQ </h3>
+<br>
+<h3>Contact Us </h3>
+<br>
+<h3>Chat </h3>
+<br>
+<h3>Report  </h3>
+<br>
+<h3 id="Logout" onclick="Logout()">Log-Out  </h3>
+<br>
+<br>
+<br>
+
+</article>
+
+
+<style>
+
+		#preview {
+				background-color:white;
+				box-shadow: 5px 5px 5px 5px black;
+				width:150px;
+				height:150px;
+				border-radius:150px;
+				border:none;
+				
+}
+
+		#image {
+				background-color:;
+				width:135px;
+				height:135px;
+				border-radius:135px;
+				padding:10px;
+				margin-right:-5px;
+				margin-top:;
+				
+				
+}
+
+		#profile{
+				display:flex;
+				justify-content:center;
+				justify-items:center;
+				align-items:center;	
+}
+
+		#newB {
+				
+				background-color:;
+				display:flex;
+				justify-content:center;
+				margin-top:120px;
+				margin-left:120px;
+				position:absolute;
+				
+}
+		#btn1 {
+				border-radius:15px;
+				border:none;
+				opacity:1;
+}
+
+		body{
+					color:black;
+					background-color: rgb(132, 171, 255);
+}
+
+
+
+		
+footer{
+
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+        
+}
+
+
+#footer{
+
+    display: flex;
+    list-style: none;
+    background-color: aqua;
+    border-radius: 35px;
+    height: 30px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    position: fixed;
+    z-index: 2;
+    bottom:5px;
+   
+    
+
+}
+
+#home{
+
+    background-color: transparent;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-inline: 35px;
+
+}
+
+#order{
+
+    background-color: transparent;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-inline: 35px;
+
+
+}
+
+#more{
+
+    background-color: transparent;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-inline: 35px;
+
+
+}
+}
+
+</style>
+
+
+<script>
+
+function openFileUploader(){
+    document.getElementById("fileInput").click();
+
+	
+}
+
+//Handle file selection
+
+document.getElementById("fileInput").addEventListener("change", function(event){
+
+    var file = event.target.files[0];
+
+    if(file){
+
+        // For preview
+
+        var preview = document.getElementById('preview');
+    if (file.type.startsWith('image/')) {
+
+        // THIS IS TO DISPLAY THE IMAGE
+        
+        var reader = new FileReader();
+        reader.onload = function(e) {
+
+            preview.innerHTML = '<img id="image" src="' + e.target.result + '">';
+		
+	
+	localStorage.SetItem('SavedProfile', preview.innerHTML);
+
+	var SavedImage = localStorage.getItem('SavedProfile');
+	
+	if(SavedImage){
+
+		var Profile = document.getElementById("image");
+		
+		Profile.innerHTML = SavedImage;
+}
+
+
+		
+        }
+
+        reader.readAsDataURL(file);
+    }
+
+    else {
+
+        //UNSUPPORTED FILE
+
+        alert('unsupported file type');
+    }
+    }
+
+    localStorage.setItem('savedProfile', fileInput).value;
+
+    var savedProfile = localStorage.getItem('savedProfile');
+
+    if(savedProfile){
+
+        document.getElementById('preview').innerHTML = saveProfile;
+    }
+});
+
+
+
+			function Home(){
+			
+				document.location = "charles SCHWAB.html";
+
+
+
+}
+
+			function Order(){
+			
+				document.location = "charles Order.html";
+
+
+
+}
+
+			function More(){
+			
+				document.location = "BROKER PERSONAL.html";
+
+
+
+}
+
+
+
+			function onload(){
+
+			var Name = localStorage.getItem("SavedName");
+			var Phone = localStorage.getItem("SavedPhone");
+			var Email = localStorage.getItem("SavedEmail");
+			var Password = localStorage.getItem("SavedPassword");
+			
+
+
+			var userName = document.getElementById("userName");
+			var userTel = document.getElementById("userTel");
+			var userEmail = document.getElementById("userEmail");
+			var userPassword = document.getElementById("userPassword");
+
+
+			
+		if (Name){
+			
+			userName.innerText = Name;
+}
+
+
+			
+		if (Phone){
+			
+			userTel.innerText = Phone;
+}
+
+	
+		if (Email){
+			
+			userEmail.innerText = Email;
+}
+
+	
+		if (Password){
+			
+			userPassword.innerText = Password;
+}
+
+}
+
+
+window.onload = onload();
+
+		function Logout(){
+		
+			document.location = "logins.html";
+
+
+}		
+
+</script>
+
+</html>

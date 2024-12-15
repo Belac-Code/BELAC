@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.broker site send</title>
+        <link rel="stylesheet" href="broker site bitcoin-deposit.css">
+    </head>
+
+    <header class="head">
+        <img id="img-btc" src="logo celo.png">
+        <div id="price"> Buy  Celo </div>
+        <p> <price id="wallet-balance"> 0 </price> CELO</p>
+    </header>
+   
+    
+    <section id="section">
+       <label for="text">Enter Amount</label>
+       <br>
+       <br>
+       <input id="input" type="number" placeholder="0.00" value=""> 
+       <select id="select">
+           <option>USD</option> 
+           <option>ZAR</option> 
+           <option>EURO</option> 
+           <option>KWD</option> 
+           <option>NGN</option> 
+       </select>  
+       <br> 
+       <br>
+      <div id="wal-add" onclick="copyText()"> Copy wallet address </div>
+           <button id="button" onclick="document.location='https://www.binance.com'" type="submit">Deposit from your Binance Account <b id="icons"> &rarr; </b> </button>
+       <br>
+       <br>
+       <button id="button" onclick="myFunction()"> BUY  &#128181;  </button>
+       <br>
+       <p id="demo"></p>
+       <br>
+   
+       <button id="button" onclick="document.location='broker site celo-deposit.html'" type="reset"> Reset  <b id="icons3"> &#9932; </b></button>  
+       <br>
+       <br>
+       
+   
+       <aside>
+           <p>  </p>
+       </aside>
+       </section>
+     
+      
+   <script>
+       
+   function copyText() {  navigator.clipboard.writeText
+   
+   ("bc1qn38p54wksq2jj2fxsf6que6kj3ca08cldv7s47")
+   
+   
+   }
+   
+   function myFunction() { 
+   
+   
+   
+   var Name = localStorage.getItem("SavedName");
+   
+   
+   if (Name){
+   
+       alert(`Dear ${Name}\nYou will be directed to email buying for safe transactions.\nSubmit Proof of payment to the email and your crypto wallet will be funded`);
+   
+   
+     document.location = "broker site email buying.html";
+   
+   }
+   
+                   
+   
+                   
+   
+   }
+   
+   
+   function load(){
+    
+    
+    var currentBal = document.getElementById("wallet-balance");
+     var savedBal = localStorage.getItem("SavedCELOCoinAmt");
+     
+       
+    
+     
+     if(savedBal){
+    
+        currentBal.innerText = savedBal;
+       
+        
+        }
+    
+    
+    }
+                    window.onload = load();
+           </script>
+   </html>

@@ -1,0 +1,97 @@
+body        { background-color: rgb(3, 3, 24);
+    color:white;
+
+}
+
+
+@media only screen and (min-width:100px) { .head       { 
+background-color: rgb(20, 25, 68);
+position: fixed;
+width:100%;
+z-index: 2;
+top:-1px;
+height: 100px;
+left:-5px;
+padding: 10px;
+}
+}
+
+
+#img-btc        { height: 60px;
+    width: 60px;
+    
+    margin-top:10px;
+  
+  }
+
+
+#current-bal    { text-align: left;
+                margin-left: 35px;
+}
+
+
+.qrcCode   {
+                display: flex;
+               justify-content: center;
+               
+            
+}
+
+#qrc-code   {
+     
+                  
+                    width: 300px;
+                    height: 400px;
+            
+}
+#warning    {
+                position: ;
+                text-align: center;
+}
+
+#down-btn       {
+                    display: flex;
+                    justify-content: center;
+}
+
+#copy           {
+                    background-color: blue;
+                    border: none;
+                    width: 150px;
+                    height:40px;
+                    border-radius: 15px;
+                    text-align: center;
+                    font-size: 15pt;
+                    color:white;
+                    box-shadow: 3px 3px 3px black;
+}
+
+#anime          {
+                    animation-name: demo;
+                    animation-delay:5s;
+                    animation-duration: 1000000000s;        
+	                animation-timing-function: ease;
+	                animation-iteration-count: infinite;
+                    opacity: 0.3;
+}
+
+
+#demo       {
+                font-size: 12px;
+                font-style: italic;
+               
+                
+                 text-align: center;
+                 
+}
+
+
+@keyframes demo { 0% { opacity:0;}
+
+                    50% { opacity:0.2;}
+
+                    100% { opacity:0;
+                    
+                    delay:10000s;}
+    
+}
